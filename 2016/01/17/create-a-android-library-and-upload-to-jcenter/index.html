@@ -1,0 +1,69 @@
+<!DOCTYPE html><html lang="null"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description"><title>创建Android库 并且上传到jcenter | Jian Zhang</title><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/normalize/4.2.0/normalize.min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/pure-min.css"><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/pure/0.6.0/grids-responsive-min.css"><link rel="stylesheet" type="text/css" href="/css/style.css?v=0.0.0"><link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css"><script type="text/javascript" src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">创建Android库 并且上传到jcenter</h1><a id="logo" href="/.">Jian Zhang</a><p class="description"></p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> Home</i></a><a href="/archives/"><i class="fa fa-archive"> Archive</i></a></div></div><div id="layout" class="pure-g"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">创建Android库 并且上传到jcenter</h1><div class="post-meta">Jan 17, 2016<script src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js" async></script><span id="busuanzi_container_page_pv"> | <span id="busuanzi_value_page_pv"></span><span> Hits</span></span></div><div class="post-content"><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
+<li>自定义一个Math库</li>
+<li>上传到jcenter</li>
+<li>在自己的App中引用</li>
+</ul>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
+<li>注册<a href="https://bintray.com/" target="_blank" rel="external">Bintray</a>，我们会上传到这里，并且送入jcenter。</li>
+<li>添加一个<code>Package</code>叫做<code>Math</code>在<code>maven</code>库中。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Math</td>
+</tr>
+<tr>
+<td>Licenses</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Version control</td>
+<td><a href="https://github.com/itrufeng/Math" target="_blank" rel="external">https://github.com/itrufeng/Math</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul>
+<li>创建项目<code>MathAppWithJcenter</code></li>
+<li>创建Android Library<code>Math</code></li>
+<li>添加类<code>Math</code>在<code>Math</code>库中</li>
+<li>添加上传插件</li>
+<li>上传</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gradle bintrayUpload</div></pre></td></tr></table></figure>
+<ul>
+<li>发布，进入<code>Bintray</code>网站<code>Math</code>库。点击<code>Publish</code></li>
+</ul>
+<blockquote>
+<p>Notice: You have 2 unpublished item(s) for this repo (expiring in 6 days and 22 hours) Discard | Publish</p>
+</blockquote>
+<ul>
+<li>在App中引用</li>
+</ul>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://github.com/itrufeng/MathAppWithJencter" target="_blank" rel="external">Github</a></p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul>
+<li><a href="https://bintray.com/jfrog/jfrog-jars/gradle-bintray-plugin#read" target="_blank" rel="external">Gradle bintray plugin</a></li>
+</ul>
+
+			<!-- 多说评论框 start -->
+      <div class='ds-thread' data-thread-key='itrufeng' data-title=创建Android库_并且上传到jcenter data-url='null'></div>
+      <!-- 多说评论框 end -->
+      <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+      <script type='text/javascript'>
+        var duoshuoQuery = {short_name:'itrufeng'};
+        (function() {
+          var ds = document.createElement('script');
+          ds.type = 'text/javascript';ds.async = true;
+          ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+          ds.charset = 'UTF-8';
+          (document.getElementsByTagName('head')[0]
+           || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+      </script>
+      <!-- 多说公共JS代码 end --></div><script type="text/javascript" src="/js/share.js?v=0.0.0" async></script><a data-url="http://itrufeng.github.io/2016/01/17/create-a-android-library-and-upload-to-jcenter/" data-id="cisio2bnu00019ci4uvmr0a7a" class="article-share-link">Share</a><div class="tags"></div><div class="post-nav"><a href="/2016/01/30/use-realm-on-kotlin/" class="pre">使用Realm在Kotlin中(Android)</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><form action="//www.google.com/search" method="get" accept-charset="utf-8" target="_blank" class="search-form"><input type="text" name="q" maxlength="20" placeholder="Search"/><input type="hidden" name="sitesearch" value="http://itrufeng.github.io"/></form></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> Categories</i></div></div><div class="widget"><div class="widget-title"><i class="fa fa-star-o"> Tags</i></div><div class="tagcloud"></div></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> Recent</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/08/31/app-security/">app-security</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/12/weak-and-unowned/">weak-and-unowned</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/02/use-docker-by-vagrant-not-docker-machine/">use-docker-by-vagrant-not-docker-machine</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/04/use-realm-migration-on-kotlin/">使用Realm的迁移在Kotlin中</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/30/use-realm-on-kotlin/">使用Realm在Kotlin中(Android)</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/17/create-a-android-library-and-upload-to-jcenter/">创建Android库 并且上传到jcenter</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-external-link"> Blogroll</i></div></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">© <a href="/." rel="nofollow">Jian Zhang.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a id="rocket" href="#top" class="show"></a><script type="text/javascript" src="/js/totop.js?v=0.0.0" async></script><script type="text/javascript" src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=0.0.0" async></script><link rel="stylesheet" type="text/css" href="/css/jquery.fancybox.css?v=0.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=0.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=0.0.0"></script></div></body></html>
