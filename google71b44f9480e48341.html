@@ -86,25 +86,16 @@
 
 
 
-<meta name="description" content="简单解释首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，所以引用的对象不是Optional类型，而weak是不确定此时值是否存在，是Optional类型。
-请看例子
-weak123xxx.callback &amp;#123; [weak self] in  self?.property&amp;#125;
-unowned123xxx.c">
-<meta property="og:type" content="article">
-<meta property="og:title" content="weak-and-unowned">
-<meta property="og:url" content="http://itrufeng.com/2016/04/12/weak-and-unowned/index.html">
+<meta name="description" content="google-site-verification: google71b44f9480e48341.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jian's Notes">
+<meta property="og:url" content="http://itrufeng.com/google71b44f9480e48341.html">
 <meta property="og:site_name" content="Jian's Notes">
-<meta property="og:description" content="简单解释首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，所以引用的对象不是Optional类型，而weak是不确定此时值是否存在，是Optional类型。
-请看例子
-weak123xxx.callback &amp;#123; [weak self] in  self?.property&amp;#125;
-unowned123xxx.c">
-<meta property="og:updated_time" content="2016-08-31T08:54:11.000Z">
+<meta property="og:description" content="google-site-verification: google71b44f9480e48341.html">
+<meta property="og:updated_time" content="2016-09-05T01:22:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="weak-and-unowned">
-<meta name="twitter:description" content="简单解释首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，所以引用的对象不是Optional类型，而weak是不确定此时值是否存在，是Optional类型。
-请看例子
-weak123xxx.callback &amp;#123; [weak self] in  self?.property&amp;#125;
-unowned123xxx.c">
+<meta name="twitter:title" content="Jian's Notes">
+<meta name="twitter:description" content="google-site-verification: google71b44f9480e48341.html">
 
 
 
@@ -122,7 +113,13 @@ unowned123xxx.c">
   };
 </script>
 
-  <title> weak-and-unowned | Jian's Notes </title>
+  <title>
+  
+
+  
+     | Jian's Notes
+  
+</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -143,7 +140,7 @@ unowned123xxx.c">
     
   
 
-  <div class="container one-collumn sidebar-position-left page-post-detail ">
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,132 +210,9 @@ unowned123xxx.c">
 
   <div id="posts" class="posts-expand">
     
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
     
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                weak-and-unowned
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-12T18:03:05+10:00" content="2016-04-12">
-              2016-04-12
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/12/weak-and-unowned/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/12/weak-and-unowned/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
+      google-site-verification: google71b44f9480e48341.html
     
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <h3 id="简单解释"><a href="#简单解释" class="headerlink" title="简单解释"></a>简单解释</h3><p>首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，所以引用的对象不是Optional类型，而weak是不确定此时值是否存在，是Optional类型。</p>
-<p>请看例子</p>
-<h4 id="weak"><a href="#weak" class="headerlink" title="weak"></a>weak</h4><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xxx.callback &#123; [<span class="keyword">weak</span> <span class="keyword">self</span>] <span class="keyword">in</span></div><div class="line">  <span class="keyword">self</span>?.property</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h4 id="unowned"><a href="#unowned" class="headerlink" title="unowned"></a>unowned</h4><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xxx.callback &#123; [<span class="keyword">unowned</span> <span class="keyword">self</span>] <span class="keyword">in</span></div><div class="line">  <span class="keyword">self</span>.property</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="出处"><a href="#出处" class="headerlink" title="出处"></a>出处</h3><p><a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html" target="_blank" rel="external">Apple Doc</a></p>
-<p>请看一下两部分</p>
-<ul>
-<li>Weak References</li>
-<li>Unowned References</li>
-</ul>
-
-      
-    </div>
-
-    <div>
-      
-        
-      
-    </div>
-
-    <div>
-      
-        
-
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2016/04/02/use-docker-by-vagrant-not-docker-machine/" rel="next" title="use-docker-by-vagrant-not-docker-machine">
-                <i class="fa fa-chevron-left"></i> use-docker-by-vagrant-not-docker-machine
-              </a>
-            
-          </div>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/08/31/app-security/" rel="prev" title="app-security">
-                app-security <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
   </div>
 
 
@@ -349,8 +223,8 @@ unowned123xxx.c">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/04/12/weak-and-unowned/"
-           data-title="weak-and-unowned" data-url="http://itrufeng.com/2016/04/12/weak-and-unowned/">
+      <div class="ds-thread" data-thread-key="google71b44f9480e48341.html"
+           data-title="" data-url="http://itrufeng.com/google71b44f9480e48341.html">
       </div>
     
   </div>
@@ -374,17 +248,8 @@ unowned123xxx.c">
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel ">
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpeg"
@@ -447,17 +312,6 @@ unowned123xxx.c">
 
       </section>
 
-      
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-            
-              
-            
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简单解释"><span class="nav-number">1.</span> <span class="nav-text">简单解释</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#weak"><span class="nav-number">1.1.</span> <span class="nav-text">weak</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#unowned"><span class="nav-number">1.2.</span> <span class="nav-text">unowned</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#出处"><span class="nav-number">2.</span> <span class="nav-text">出处</span></a></li></ol></div>
-            
-          </div>
-        </section>
       
 
     </div>
@@ -561,10 +415,6 @@ unowned123xxx.c">
 
 
   
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
-
-
 
   
 
