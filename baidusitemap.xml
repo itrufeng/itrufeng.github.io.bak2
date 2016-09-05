@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://itrufeng.com/2016/08/31/app-security/</loc>
+    <lastmod>2016-09-05T01:10:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>app-security</title>
+        <pubTime>2016-08-31T08:03:13.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://itrufeng.com/2016/04/12/weak-and-unowned/</loc>
+    <lastmod>2016-08-31T08:54:11.000Z</lastmod>
+    <data>
+        <display>
+        <title>weak-and-unowned</title>
+        <pubTime>2016-04-12T08:03:05.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://itrufeng.com/2016/04/02/use-docker-by-vagrant-not-docker-machine/</loc>
+    <lastmod>2016-08-31T08:53:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>use-docker-by-vagrant-not-docker-machine</title>
+        <pubTime>2016-04-02T08:02:52.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://itrufeng.com/2016/01/17/create-a-android-library-and-upload-to-jcenter/</loc>
+    <lastmod>2016-08-31T08:53:06.000Z</lastmod>
+    <data>
+        <display>
+        <title>创建Android库 并且上传到jcenter</title>
+        <pubTime>2016-01-17T07:59:06.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://itrufeng.com/2016/01/30/use-realm-on-kotlin/</loc>
+    <lastmod>2016-08-31T08:49:20.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用Realm在Kotlin中(Android)</title>
+        <pubTime>2016-01-30T08:02:19.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://itrufeng.com/2016/02/04/use-realm-migration-on-kotlin/</loc>
+    <lastmod>2016-08-31T08:48:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用Realm的迁移在Kotlin中</title>
+        <pubTime>2016-02-04T08:02:34.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>

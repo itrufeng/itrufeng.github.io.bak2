@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://itrufeng.com/2016/08/31/app-security/</loc>
+    
+    <lastmod>2016-09-05T01:10:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://itrufeng.com/2016/04/12/weak-and-unowned/</loc>
+    
+    <lastmod>2016-08-31T08:54:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://itrufeng.com/2016/04/02/use-docker-by-vagrant-not-docker-machine/</loc>
+    
+    <lastmod>2016-08-31T08:53:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://itrufeng.com/2016/01/17/create-a-android-library-and-upload-to-jcenter/</loc>
+    
+    <lastmod>2016-08-31T08:53:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://itrufeng.com/2016/01/30/use-realm-on-kotlin/</loc>
+    
+    <lastmod>2016-08-31T08:49:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://itrufeng.com/2016/02/04/use-realm-migration-on-kotlin/</loc>
+    
+    <lastmod>2016-08-31T08:48:53.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
