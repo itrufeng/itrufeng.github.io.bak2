@@ -92,7 +92,7 @@
 <meta property="og:url" content="http://itrufeng.com/2016/08/31/app-security/index.html">
 <meta property="og:site_name" content="Jian's Notes">
 <meta property="og:description" content="App code signing当iOS系统启动后，App codesigning控制着哪些用户的进程/App可以被运行，并且确保所有的Apps来源安全，iOS要求所有的可执行代码被苹果证书签名，例如苹果自己的App，Mail，Safari呀这些。我们开发的第三方Apps同样必须被苹果证书签名，iOS强制使用信任链的概念来签名Apps，并且阻止加载未签名的App和虽然签名但是被修改了代码的App。">
-<meta property="og:updated_time" content="2016-09-06T00:21:19.000Z">
+<meta property="og:updated_time" content="2016-09-06T00:41:36.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="app-security">
 <meta name="twitter:description" content="App code signing当iOS系统启动后，App codesigning控制着哪些用户的进程/App可以被运行，并且确保所有的Apps来源安全，iOS要求所有的可执行代码被苹果证书签名，例如苹果自己的App，Mail，Safari呀这些。我们开发的第三方Apps同样必须被苹果证书签名，iOS强制使用信任链的概念来签名Apps，并且阻止加载未签名的App和虽然签名但是被修改了代码的App。">
@@ -293,6 +293,9 @@
 <li>共享Keychain数据</li>
 </ul>
 <p>每一个App Group IDs都是唯一的。</p>
+<h1 id="Data-Protection-in-apps"><a href="#Data-Protection-in-apps" class="headerlink" title="Data Protection in apps"></a>Data Protection in apps</h1><p>iOS有丰富的API让苹果内部开发人员和第三方开发者选择数据保护来确保他们的app安全。数据保护可以用在文件和数据库，包括<code>NSFileManager</code>, <code>CoreData</code>, <code>NSData</code>, <code>SQLite</code>.</p>
+<p>系统的<code>Mail</code> app(包括附件)，被管理的书，Safari的书签，App运行图片，位置数据，被存储在安全的密码，用户的密码和指纹，日历(包括附件)，联系人，提醒事项，记事本，短信，照片都实现了<code>Protected Until First User Authentication</code>.</p>
+<p>用户自己安装的Apps是没有特殊保护的，默认只有一种保护叫做<code>Protected Until First User Authentication</code>.</p>
 
       
     </div>
@@ -454,7 +457,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#App-code-signing"><span class="nav-number">1.</span> <span class="nav-text">App code signing</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Runtime-process-security"><span class="nav-number">2.</span> <span class="nav-text">Runtime process security</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Extensions"><span class="nav-number">3.</span> <span class="nav-text">Extensions</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#App-Group"><span class="nav-number">4.</span> <span class="nav-text">App Group</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#App-code-signing"><span class="nav-number">1.</span> <span class="nav-text">App code signing</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Runtime-process-security"><span class="nav-number">2.</span> <span class="nav-text">Runtime process security</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Extensions"><span class="nav-number">3.</span> <span class="nav-text">Extensions</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#App-Group"><span class="nav-number">4.</span> <span class="nav-text">App Group</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Data-Protection-in-apps"><span class="nav-number">5.</span> <span class="nav-text">Data Protection in apps</span></a></li></ol></div>
             
           </div>
         </section>
