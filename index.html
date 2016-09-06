@@ -239,7 +239,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-08-31T18:03:13+10:00" content="2016-08-31">
+            <time itemprop="dateCreated" datetime="2016-08-31T16:03:13+10:00" content="2016-08-31">
               2016-08-31
             </time>
           </span>
@@ -291,6 +291,14 @@
 <p>Extensions运行在独立的空间中，两个Extensions之间只能通过系统提供的API来通信，不能互相访问内存或者文件系统，他们相互隔离，打包在一个App中。他们之间就想我们开发的第三方App的Sandbox一样，他们共享App的权限，例如App被授权访问联系人，那么这个Extension也可以访问联系人。如果在Extension中授权了访问联系人权限，系统会吧权限给App而不是这个Extension。</p>
 <p>自定义键盘是一个特殊的Extension，它需要用户在系统设置里启用。当启用时，这个Extension将被用户用户在任何输入框中。因权限，自定义键盘默认运行在Sandbox中，它非常限制网络访问，API只能扩展用户输入数据。开发人员可以请求开放权限，系统会在用户同意后运行这个Extension。</p>
 <p>通过自定义Extension，开发人员可以用第三方的键盘给自己的App。</p>
+<h1 id="App-Group"><a href="#App-Group" class="headerlink" title="App Group"></a>App Group</h1><p>Apps和Extensions都是同一个开发账号下的话，他们可以共享他们的数据，当配置了App Group后。配置一次App Group, Apps就拥有一下访问权限。</p>
+<ul>
+<li>分享磁盘中的存储数据</li>
+<li>这些数据会被保存直到该Group下最后一个应用被删除。</li>
+<li>共享Preferences</li>
+<li>共享Keychain数据</li>
+</ul>
+<p>每一个App Group IDs都是唯一的。</p>
 
           
         
