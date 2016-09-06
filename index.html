@@ -305,6 +305,7 @@ signing</code>控制着哪些用户的进程/App可以被运行，并且确保�
 <p>用户自己安装的Apps是没有特殊保护的，默认只有一种保护叫做<code>Protected Until First User Authentication</code>.</p>
 <h1 id="Accessories"><a href="#Accessories" class="headerlink" title="Accessories"></a>Accessories</h1><p>iPhone, iPod touch和iPad(简称<code>MFi</code>)通过<code>iAP</code>协议来许可程序访问硬件接口。当需要用雷电接口链接设备或者通过蓝牙来访问<code>MFi</code>的时候，设备会要求访问者它需要被<code>Apple</code>提供的证书验证过。设备会发送一个<code>Challenge</code>，访问者需要回复被签名答案。这个过程和苹果设备链接设备提供的授权访问是一体的。</p>
 <p><code>Accessories</code>可以用不同的方式来访问。例如访问数字音频流通过雷电接口，或者通过蓝牙获取定位信息。<code>IC</code>授权保证只有苹果认证的硬件才可以访问。如果访问者提供授权，它的只能访问被限制的模拟音频信号和<code>UART</code>音频控制器。<code>UART</code>我猜是播放，停止，下一曲这种简单控制。</p>
+<p><code>Airplay</code>也利用IC来授权验证。<code>Airplay</code>音频和<code>CarPlay</code>视频流都利用了<code>MFi-SAP</code>(<code>Secure Association Protocol</code>)，他让设备和访问者之间的数据安全传输，并且使用<code>AES-128``CTR</code>模式。使用<code>ECDH key</code>交换(<code>Curve25519</code>)和被<code>iC&#39;s 1024-bit RSA</code>签名，作为<code>STS</code>(<code>Station-to-Station</code>)协议。</p>
 
           
         
