@@ -4,8 +4,23 @@
 
     
   <url>
+    <loc>http://itrufeng.com/2016/09/08/apple-pay/</loc>
+    <lastmod>2016-09-09T00:46:48.000Z</lastmod>
+    <data>
+        <display>
+        <title>Apple Pay</title>
+        <pubTime>2016-09-08T00:47:55.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://itrufeng.com/2016/08/31/app-security/</loc>
-    <lastmod>2016-09-06T01:39:43.000Z</lastmod>
+    <lastmod>2016-09-08T00:45:10.000Z</lastmod>
     <data>
         <display>
         <title>app-security</title>
@@ -24,7 +39,7 @@
     <data>
         <display>
         <title>weak-and-unowned</title>
-        <pubTime>2016-04-12T08:03:05.000Z</pubTime>
+        <pubTime>2016-04-12T06:03:05.000Z</pubTime>
         
          
            
@@ -39,7 +54,7 @@
     <data>
         <display>
         <title>use-docker-by-vagrant-not-docker-machine</title>
-        <pubTime>2016-04-02T08:02:52.000Z</pubTime>
+        <pubTime>2016-04-02T06:02:52.000Z</pubTime>
         
          
            
@@ -54,7 +69,7 @@
     <data>
         <display>
         <title>创建Android库 并且上传到jcenter</title>
-        <pubTime>2016-01-17T07:59:06.000Z</pubTime>
+        <pubTime>2016-01-17T04:59:06.000Z</pubTime>
         
          
            
@@ -69,7 +84,7 @@
     <data>
         <display>
         <title>使用Realm在Kotlin中(Android)</title>
-        <pubTime>2016-01-30T08:02:19.000Z</pubTime>
+        <pubTime>2016-01-30T05:02:19.000Z</pubTime>
         
          
            
@@ -84,7 +99,7 @@
     <data>
         <display>
         <title>使用Realm的迁移在Kotlin中</title>
-        <pubTime>2016-02-04T08:02:34.000Z</pubTime>
+        <pubTime>2016-02-04T05:02:34.000Z</pubTime>
         
          
            
