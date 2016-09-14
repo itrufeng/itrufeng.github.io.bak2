@@ -94,7 +94,7 @@ signing控制着哪些用户的进程/App可以被运行，并且确保所有的
 <meta property="og:site_name" content="Jian's Notes">
 <meta property="og:description" content="App code signing当iOS系统启动后，App code
 signing控制着哪些用户的进程/App可以被运行，并且确保所有的Apps来源安全，iOS要求所有的可执行代码被苹果证书签名，例如苹果自己的App，Mail，Safari呀这些。我们开发的第三方Apps同样必须被苹果证书签名，iOS强制使用信任链的概念来签名Apps，并且阻止加载未签名的App和虽然签名但是被修改了代码的App">
-<meta property="og:updated_time" content="2016-09-08T00:45:10.000Z">
+<meta property="og:updated_time" content="2016-09-14T14:43:31.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="app-security">
 <meta name="twitter:description" content="App code signing当iOS系统启动后，App code
@@ -275,7 +275,7 @@ signing控制着哪些用户的进程/App可以被运行，并且确保所有的
       
         <h1 id="App-code-signing"><a href="#App-code-signing" class="headerlink" title="App code signing"></a>App code signing</h1><p>当iOS系统启动后，<code>App code
 signing</code>控制着哪些用户的进程/App可以被运行，并且确保所有的Apps来源安全，iOS要求所有的可执行代码被苹果证书签名，例如苹果自己的App，<code>Mail</code>，<code>Safari</code>呀这些。我们开发的第三方Apps同样必须被苹果证书签名，iOS强制使用信任链的概念来签名Apps，并且阻止加载未签名的App和虽然签名但是被修改了代码的App。</p>
-<p>iOS允许开发者内嵌其他的Frameworks在自己的Apps中，它可以被自己的其他内置的<code>extensions</code>调用。为了保护其他App加载第三方的代码，系统会在link的时候对第三方的代码或者动态库同样签名，签名是通过证书的<code>Team identifier</code>来做的，简称<code>TeamID</code>，它是由10位的字母和数字组成。同样<code>TeamID</code>签名的任何Library，都可以被主程序调用。</p>
+<p>iOS允许开发者内嵌其他的Frameworks在自己的Apps中，它可以被自己的其他内置的<code>extensions</code>调用。为了保护其他App加载第三方的代码，系统会在link的时候对第三方的代码或者动态库同样签名，签名是通过证书的<code>Team identifier</code>来做的，简称<code>TeamID</code>，它是由10位的字母和数字组成。同样<code>TeamID</code>签名的任何Library，都可以被主程序调用。!</p>
 <p>商用Apps，可以用<code>in-house</code>方式分发给员工。并且需要应用<code>Apple Developer Enterprise Program (ADEP)</code>，<code>ADEP</code>需要生成一个<code>Provisioning Profile</code>来许可自己的App被安装。只有设备安装了这个<code>Provisioning Profile</code>，才可以安装和允许商用App，这间接的确保了信任关系。</p>
 <p>iOS不像其他手机平台，iOS不允许运行从网站下载的未签名的程序，不允许运行不信任的代码。并且会在运行时候检查内存中可执行程序，确保App没有被在安装后或者升级后被串改。</p>
 <h1 id="Runtime-process-security"><a href="#Runtime-process-security" class="headerlink" title="Runtime process security"></a>Runtime process security</h1><p>在iOS<br>App被签名验证之后，iOS会强行使用安全机制来保护，不让其他App影响自己或者影响别的App。</p>
