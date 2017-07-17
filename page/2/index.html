@@ -89,7 +89,7 @@
 <meta name="description" content="Work at ThoughtWorks in Xi&apos;an.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Jian&#39;s Notes">
-<meta property="og:url" content="http://itrufeng.com/archives/2016/09/index.html">
+<meta property="og:url" content="http://itrufeng.com/page/2/index.html">
 <meta property="og:site_name" content="Jian&#39;s Notes">
 <meta property="og:description" content="Work at ThoughtWorks in Xi&apos;an.">
 <meta name="twitter:card" content="summary">
@@ -112,7 +112,7 @@
   };
 </script>
 
-  <title> 归档 | Jian's Notes </title>
+  <title> Jian's Notes </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -133,7 +133,9 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  page-archive  ">
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -200,66 +202,166 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
+  <section id="posts" class="posts-expand">
+    
+      
 
-  <section id="posts" class="posts-collapse">
-    <span class="archive-move-on"></span>
+  
+  
 
-    <span class="archive-page-counter">
-      
-      
-      
-        
-      
-      嗯..! 目前共计 11 篇日志。 继续努力。
-    </span>
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
 
     
+      <header class="post-header">
 
-      
-      
-      
-
-      
         
-        <div class="collection-title">
-          <h2 class="archive-year motion-element" id="archive-year-2016">2016</h2>
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/01/17/create-a-android-library-and-upload-to-jcenter/" itemprop="url">
+                  创建Android库 并且上传到jcenter
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-01-17T15:59:06+08:00" content="2016-01-17">
+              2016-01-17
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/17/create-a-android-library-and-upload-to-jcenter/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/17/create-a-android-library-and-upload-to-jcenter/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
         </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
       
 
       
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h1 class="post-title">
         
-            <a class="post-title-link" href="/2016/09/08/apple-pay/" itemprop="url">
-              
-                <span itemprop="name">Apple Pay</span>
-              
-            </a>
+          
+            <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
+<li>自定义一个Math库</li>
+<li>上传到jcenter</li>
+<li>在自己的App中引用</li>
+</ul>
+<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
+<li>注册<a href="https://bintray.com/" target="_blank" rel="external">Bintray</a>，我们会上传到这里，并且送入jcenter。</li>
+<li>添加一个<code>Package</code>叫做<code>Math</code>在<code>maven</code>库中。</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name</td>
+<td>Math</td>
+</tr>
+<tr>
+<td>Licenses</td>
+<td>MIT</td>
+</tr>
+<tr>
+<td>Version control</td>
+<td><a href="https://github.com/itrufeng/Math" target="_blank" rel="external">https://github.com/itrufeng/Math</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul>
+<li>创建项目<code>MathAppWithJcenter</code></li>
+<li>创建Android Library<code>Math</code></li>
+<li>添加类<code>Math</code>在<code>Math</code>库中</li>
+<li>添加上传插件</li>
+<li>上传</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gradle bintrayUpload</div></pre></td></tr></table></figure>
+<ul>
+<li>发布，进入<code>Bintray</code>网站<code>Math</code>库。点击<code>Publish</code></li>
+</ul>
+<blockquote>
+<p>Notice: You have 2 unpublished item(s) for this repo (expiring in 6 days and 22 hours) Discard | Publish</p>
+</blockquote>
+<ul>
+<li>在App中引用</li>
+</ul>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://github.com/itrufeng/MathAppWithJencter" target="_blank" rel="external">Github</a></p>
+<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul>
+<li><a href="https://bintray.com/jfrog/jfrog-jars/gradle-bintray-plugin#read" target="_blank" rel="external">Gradle bintray plugin</a></li>
+</ul>
+
+          
         
-      </h1>
+      
+    </div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2016-09-08T10:47:55+08:00"
-              content="2016-09-08" >
-          09-08
-        </time>
-      </div>
+    <div>
+      
+    </div>
 
-    </header>
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </article>
 
 
-
     
-
   </section>
 
   
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
+  </nav>
 
 
 
@@ -475,12 +577,6 @@
 
 
   
-  
-    <script type="text/javascript" id="motion.page.archive">
-      $('.archive-year').velocity('transition.slideLeftIn');
-    </script>
-  
-
 
   
 

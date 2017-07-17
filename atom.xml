@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://itrufeng.com/"/>
-  <updated>2016-11-01T12:53:32.000Z</updated>
+  <updated>2017-07-17T14:18:31.000Z</updated>
   <id>http://itrufeng.com/</id>
   
   <author>
@@ -14,6 +14,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>樱桃弹幕来啦 For macOS</title>
+    <link href="http://itrufeng.com/2017/07/15/cherry-danmu-coming-soon/"/>
+    <id>http://itrufeng.com/2017/07/15/cherry-danmu-coming-soon/</id>
+    <published>2017-07-15T03:27:47.000Z</published>
+    <updated>2017-07-17T14:18:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>樱桃弹幕</code>是一款不打开直播间就可以看到弹幕的主播直播<code>macOS软件</code>。它可以让弹幕像Bilibili一样漂浮在整个屏幕上。</p>
+<iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=u05252l6hy5&tiny=0&auto=0" allowfullscreen></iframe>
+
+<p><a href="https://dl.devmate.com/com.itrufeng.Danmu/樱桃弹幕.dmg" target="_blank" rel="external">下载樱桃弹幕1.3版本</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;code&gt;樱桃弹幕&lt;/code&gt;是一款不打开直播间就可以看到弹幕的主播直播&lt;code&gt;macOS软件&lt;/code&gt;。它可以让弹幕像Bilibili一样漂浮在整个屏幕上。&lt;/p&gt;
+&lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>《色彩不同的性格之红色》</title>
