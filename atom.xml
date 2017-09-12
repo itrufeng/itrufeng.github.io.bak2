@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Jian&#39;s Notes</title>
+  
   <subtitle>iOS Dev.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://itrufeng.com/"/>
-  <updated>2017-07-17T14:28:33.000Z</updated>
+  <updated>2017-08-29T05:44:23.000Z</updated>
   <id>http://itrufeng.com/</id>
   
   <author>
@@ -20,34 +21,17 @@
     <link href="http://itrufeng.com/2017/07/15/cherry-danmu-coming-soon/"/>
     <id>http://itrufeng.com/2017/07/15/cherry-danmu-coming-soon/</id>
     <published>2017-07-15T03:27:47.000Z</published>
-    <updated>2017-07-17T14:28:33.000Z</updated>
+    <updated>2017-08-29T05:44:23.000Z</updated>
     
-    <content type="html"><![CDATA[<p><code>樱桃弹幕</code>是一款不打开直播间就可以看到弹幕的主播直播<code>macOS软件</code>。它可以让弹幕像Bilibili一样漂浮在整个屏幕上。</p>
-<iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=u05252l6hy5&tiny=0&auto=0" allowfullscreen></iframe>
-
-<p><a href="https://dl.devmate.com/com.itrufeng.Danmu/樱桃弹幕.dmg" target="_blank" rel="external">下载樱桃弹幕1.3版本</a></p>
-<h1 id="App用途"><a href="#App用途" class="headerlink" title="App用途"></a>App用途</h1><ul>
-<li>以漂浮形式展示直播间弹幕在全屏中，帮助主播不用看网页就可以知道粉丝发送的弹幕。方便直播时候和粉丝互动。</li>
-</ul>
-<h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol>
-<li>打开Bilibili直播网站 <a href="http://live.bilibili.com" target="_blank" rel="external">http://live.bilibili.com</a></li>
-<li>选择任意一个正在直播的主播，点击进入</li>
-<li>复制浏览器中的URL地址</li>
-<li>打开樱桃弹幕</li>
-<li>在StatusMenu中选择樱桃弹幕中的首选项</li>
-<li>粘贴URL地址到输入框并关闭首选项</li>
-<li>在StatusMenu中选择樱桃弹幕中的开始弹幕</li>
-<li>当有粉丝在直播间发送弹幕时，樱桃弹幕同时展示这条弹幕在屏幕上</li>
-<li>停止弹幕可以不再接受新的弹幕，已经展示的弹幕会慢慢移出屏幕外</li>
-<li>退出弹幕即可关闭App</li>
-</ol>
-<p>by 第三方制作, 如有不好用的地方，欢迎评论。我努力修改更新。谢谢</p>
-]]></content>
+    <content type="html"><![CDATA[<p><code>樱桃弹幕</code>是一款不打开直播间就可以看到弹幕的主播直播<code>macOS软件</code>。它可以让弹幕像Bilibili一样漂浮在整个屏幕上。</p><iframe frameborder="0" width="640" height="498" src="https://v.qq.com/iframe/player.html?vid=u05252l6hy5&tiny=0&auto=0" allowfullscreen></iframe><p><a href="https://dl.devmate.com/com.itrufeng.Danmu/樱桃弹幕.dmg" target="_blank" rel="external">下载樱桃弹幕1.3版本</a></p><h1 id="App用途"><a href="#App用途" class="headerlink" title="App用途"></a>App用途</h1><ul><li>以漂浮形式展示直播间弹幕在全屏中，帮助主播不用看网页就可以知道粉丝发送的弹幕。方便直播时候和粉丝互动。</li></ul><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><ol><li>打开Bilibili直播网站 <a href="http://live.bilibili.com" target="_blank" rel="external">http://live.bilibili.com</a></li><li>选择任意一个正在直播的主播，点击进入</li><li>复制浏览器中的URL地址</li><li>打开樱桃弹幕</li><li>在StatusMenu中选择樱桃弹幕中的首选项</li><li>粘贴URL地址到输入框并关闭首选项</li><li>在StatusMenu中选择樱桃弹幕中的开始弹幕</li><li>当有粉丝在直播间发送弹幕时，樱桃弹幕同时展示这条弹幕在屏幕上</li><li>停止弹幕可以不再接受新的弹幕，已经展示的弹幕会慢慢移出屏幕外</li><li>退出弹幕即可关闭App</li></ol><p>by 第三方制作, 如有不好用的地方，欢迎评论。我努力修改更新。谢谢</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;code&gt;樱桃弹幕&lt;/code&gt;是一款不打开直播间就可以看到弹幕的主播直播&lt;code&gt;macOS软件&lt;/code&gt;。它可以让弹幕像Bilibili一样漂浮在整个屏幕上。&lt;/p&gt;
+      
+      
+        &lt;p&gt;&lt;code&gt;樱桃弹幕&lt;/code&gt;是一款不打开直播间就可以看到弹幕的主播直播&lt;code&gt;macOS软件&lt;/code&gt;。它可以让弹幕像Bilibili一样漂浮在整个屏幕上。&lt;/p&gt;
 &lt;iframe frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;498
+      
     
     </summary>
     
@@ -61,26 +45,14 @@
     <published>2016-11-01T12:08:21.000Z</published>
     <updated>2016-11-01T12:53:32.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的请不吝啬的指出。谢谢</p>
-<h1 id="色彩不同的性格"><a href="#色彩不同的性格" class="headerlink" title="色彩不同的性格"></a>色彩不同的性格</h1><p>每个颜色就和每个人一样。有不同的性格。能说会道的人比较容易做销售行业，细心的人容易做一些精细的工种例如手术。每个颜色也有自己的性格。如果我们充分理解每个颜色的性格那么就可以搭配出满意的作品。</p>
-<img src="/2016/11/01/se-cai-bu-tong-de-xing-ge-zhi-hong-se/sehuan.jpg" alt="色环" title="色环">
-<h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><p>红色在可见光种波长最长，纯度最高。色感<code>温暖</code>，性格<code>刚烈外向</code>，容易引起人的注意。</p>
-<h2 id="象征"><a href="#象征" class="headerlink" title="象征"></a>象征</h2><p>象征能量，刺激，火焰，血液，太阳，富足，希望，热情，浪漫，爱情。</p>
-<h2 id="正面"><a href="#正面" class="headerlink" title="正面"></a>正面</h2><p>红色能让肌肉机能和血液循环加强，让人<code>兴奋</code>，<code>紧张</code>，<code>激动</code>，它也象征热情，让我们感受到无限的活力和精神。</p>
-<p>喜爱红色的人，大都<code>性格开朗</code>，<code>乐观向上</code>，积极进取却<code>有明显野心</code>的人。在女性着装中加入红色可表现出女性<code>浪漫</code>和<code>性感</code>的一面。</p>
-<h2 id="负面"><a href="#负面" class="headerlink" title="负面"></a>负面</h2><p>刺激性强，长时间观看，很容易让人视觉疲劳</p>
-<p>红色还具有<code>挑衅</code>，<code>压迫</code>，<code>危险</code>，<code>恐怖</code>，<code>暴力</code>，<code>血腥</code>，<code>庸俗</code>的负面意向。</p>
-<h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>在居家环境中，选用适量红色，不仅增添<code>温暖</code>的气氛，还可以增强<code>时尚感</code>和<code>个性感</code>。</p>
-<p><strong>明度越高</strong>越能体现出<code>快乐</code>。</p>
-<p><strong>明度越低</strong>越体现出<code>紧张</code>和<code>不确定</code>的感觉。</p>
-<blockquote>
-<p>尽情期待 橙色，黄色，绿色，蓝色，紫色，黑色，白色，灰色。以及《色彩给人的感受》《用色相配色》《用明度配色》《用纯度配色》《用感情配色》</p>
-</blockquote>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的请不吝啬的指出。谢谢</p><h1 id="色彩不同的性格"><a href="#色彩不同的性格" class="headerlink" title="色彩不同的性格"></a>色彩不同的性格</h1><p>每个颜色就和每个人一样。有不同的性格。能说会道的人比较容易做销售行业，细心的人容易做一些精细的工种例如手术。每个颜色也有自己的性格。如果我们充分理解每个颜色的性格那么就可以搭配出满意的作品。</p><img src="/2016/11/01/se-cai-bu-tong-de-xing-ge-zhi-hong-se/sehuan.jpg" alt="色环" title="色环"><h2 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h2><p>红色在可见光种波长最长，纯度最高。色感<code>温暖</code>，性格<code>刚烈外向</code>，容易引起人的注意。</p><h2 id="象征"><a href="#象征" class="headerlink" title="象征"></a>象征</h2><p>象征能量，刺激，火焰，血液，太阳，富足，希望，热情，浪漫，爱情。</p><h2 id="正面"><a href="#正面" class="headerlink" title="正面"></a>正面</h2><p>红色能让肌肉机能和血液循环加强，让人<code>兴奋</code>，<code>紧张</code>，<code>激动</code>，它也象征热情，让我们感受到无限的活力和精神。</p><p>喜爱红色的人，大都<code>性格开朗</code>，<code>乐观向上</code>，积极进取却<code>有明显野心</code>的人。在女性着装中加入红色可表现出女性<code>浪漫</code>和<code>性感</code>的一面。</p><h2 id="负面"><a href="#负面" class="headerlink" title="负面"></a>负面</h2><p>刺激性强，长时间观看，很容易让人视觉疲劳</p><p>红色还具有<code>挑衅</code>，<code>压迫</code>，<code>危险</code>，<code>恐怖</code>，<code>暴力</code>，<code>血腥</code>，<code>庸俗</code>的负面意向。</p><h2 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h2><p>在居家环境中，选用适量红色，不仅增添<code>温暖</code>的气氛，还可以增强<code>时尚感</code>和<code>个性感</code>。</p><p><strong>明度越高</strong>越能体现出<code>快乐</code>。</p><p><strong>明度越低</strong>越体现出<code>紧张</code>和<code>不确定</code>的感觉。</p><blockquote><p>尽情期待 橙色，黄色，绿色，蓝色，紫色，黑色，白色，灰色。以及《色彩给人的感受》《用色相配色》《用明度配色》《用纯度配色》《用感情配色》</p></blockquote>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的
+      
     
     </summary>
     
@@ -94,39 +66,14 @@
     <published>2016-10-30T13:35:42.000Z</published>
     <updated>2016-11-01T12:53:11.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的请不吝啬的指出。谢谢</p>
-<h1 id="色彩的基础"><a href="#色彩的基础" class="headerlink" title="色彩的基础"></a>色彩的基础</h1><h2 id="色彩模式"><a href="#色彩模式" class="headerlink" title="色彩模式"></a>色彩模式</h2><p>常见的色彩有两种模式，一种是<code>RGB</code>一种是<code>CMYK</code>。</p>
-<p><code>RGB</code>是自己发光，通过三种不同色的量做加法得到的颜色。所以是<em>发光红色+发光绿色+发光蓝色=看到的颜色</em>。</p>
-<p><code>CMYK</code>是不能发光，需要吸收掉阳光/灯光的一部分能量后所反射出来的颜色。所以是<em>阳光(白色)-吸收部分=看到的颜色</em>。</p>
-<p><code>RGB</code>的好处是，只要每个颜色的量相同，那么颜色就是一致的。<code>CMYK</code>因为阳光的强弱会导致看到的颜色有很大的差异。例如白天看家里的白墙是白的，晚上没灯就是黑的。而<code>RGB</code>自己就是光产生的，没有这个问题。</p>
-<h2 id="色彩的属性"><a href="#色彩的属性" class="headerlink" title="色彩的属性"></a>色彩的属性</h2><p>什么是属性？比如人的属性就是，有腿，有嘴。每个人都有这两个属性，但是值不同。例如腿长的适合打篮球，嘴利索的适合脱口秀。</p>
-<p>颜色有三个属性，<code>色相</code>，<code>明度</code>，<code>纯度</code>。</p>
-<p><code>色相</code>就是颜色的称呼，例如红色，橙色，黄色，绿色。</p>
-<p><code>明度</code>是色彩的亮度和暗度。对一个色相加入白色就是增加明度，加入黑色就是降低明度。例如下图</p>
-<img src="/2016/10/30/pei-se-zong-jie/mingdu.gif" alt="明度" title="明度">
-<p><code>纯度</code>是色彩的饱和度，也就是包含色相的多少，含量越少纯度越低，含量越多纯度越高。给一个色相，加入另一个色相后，纯度就会降低，色彩从鲜艳变得浑浊，纯度越低越接近灰色。例如下图</p>
-<img src="/2016/10/30/pei-se-zong-jie/chundu.png" alt="纯度" title="纯度">
-<p>灰色之所以可以和任何颜色搭配，就是因为任何颜色降低纯度都是灰色。</p>
-<h2 id="色彩的分类"><a href="#色彩的分类" class="headerlink" title="色彩的分类"></a>色彩的分类</h2><p>色彩有两种分类，一种是<code>无色彩</code>一种是<code>有色彩</code>。</p>
-<p><code>无色彩</code>是指黑，白，灰。它只有明度的高低，没有纯度的变化。所以和任何颜色搭配都很和谐。白色明度最高，黑色明度最低。灰色是调和作用。</p>
-<blockquote>
-<p>黑色面积越大，沉重感越强。白色面积越大，画面越纯粹。灰色面积越大，越中庸和平凡。  </p>
-</blockquote>
-<p><code>有彩色</code>是红，黄，蓝，绿这种带有某一色相的颜色。它有冷暖倾向。有彩色有无数种颜色。因为有彩色之间不同的混合可以产生成千上万种有彩色。有彩色同时具备<code>色相</code>，<code>明度</code>，<code>纯度</code>三个属性。</p>
-<p><strong>下几篇，待续</strong></p>
-<ul>
-<li>色彩不同的性格</li>
-<li>色彩给人的感受</li>
-<li>用色相配色</li>
-<li>用明度配色</li>
-<li>用纯度配色</li>
-<li>用感情配色</li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的请不吝啬的指出。谢谢</p><h1 id="色彩的基础"><a href="#色彩的基础" class="headerlink" title="色彩的基础"></a>色彩的基础</h1><h2 id="色彩模式"><a href="#色彩模式" class="headerlink" title="色彩模式"></a>色彩模式</h2><p>常见的色彩有两种模式，一种是<code>RGB</code>一种是<code>CMYK</code>。</p><p><code>RGB</code>是自己发光，通过三种不同色的量做加法得到的颜色。所以是<em>发光红色+发光绿色+发光蓝色=看到的颜色</em>。</p><p><code>CMYK</code>是不能发光，需要吸收掉阳光/灯光的一部分能量后所反射出来的颜色。所以是<em>阳光(白色)-吸收部分=看到的颜色</em>。</p><p><code>RGB</code>的好处是，只要每个颜色的量相同，那么颜色就是一致的。<code>CMYK</code>因为阳光的强弱会导致看到的颜色有很大的差异。例如白天看家里的白墙是白的，晚上没灯就是黑的。而<code>RGB</code>自己就是光产生的，没有这个问题。</p><h2 id="色彩的属性"><a href="#色彩的属性" class="headerlink" title="色彩的属性"></a>色彩的属性</h2><p>什么是属性？比如人的属性就是，有腿，有嘴。每个人都有这两个属性，但是值不同。例如腿长的适合打篮球，嘴利索的适合脱口秀。</p><p>颜色有三个属性，<code>色相</code>，<code>明度</code>，<code>纯度</code>。</p><p><code>色相</code>就是颜色的称呼，例如红色，橙色，黄色，绿色。</p><p><code>明度</code>是色彩的亮度和暗度。对一个色相加入白色就是增加明度，加入黑色就是降低明度。例如下图</p><img src="/2016/10/30/pei-se-zong-jie/mingdu.gif" alt="明度" title="明度"><p><code>纯度</code>是色彩的饱和度，也就是包含色相的多少，含量越少纯度越低，含量越多纯度越高。给一个色相，加入另一个色相后，纯度就会降低，色彩从鲜艳变得浑浊，纯度越低越接近灰色。例如下图</p><img src="/2016/10/30/pei-se-zong-jie/chundu.png" alt="纯度" title="纯度"><p>灰色之所以可以和任何颜色搭配，就是因为任何颜色降低纯度都是灰色。</p><h2 id="色彩的分类"><a href="#色彩的分类" class="headerlink" title="色彩的分类"></a>色彩的分类</h2><p>色彩有两种分类，一种是<code>无色彩</code>一种是<code>有色彩</code>。</p><p><code>无色彩</code>是指黑，白，灰。它只有明度的高低，没有纯度的变化。所以和任何颜色搭配都很和谐。白色明度最高，黑色明度最低。灰色是调和作用。</p><blockquote><p>黑色面积越大，沉重感越强。白色面积越大，画面越纯粹。灰色面积越大，越中庸和平凡。  </p></blockquote><p><code>有彩色</code>是红，黄，蓝，绿这种带有某一色相的颜色。它有冷暖倾向。有彩色有无数种颜色。因为有彩色之间不同的混合可以产生成千上万种有彩色。有彩色同时具备<code>色相</code>，<code>明度</code>，<code>纯度</code>三个属性。</p><p><strong>下几篇，待续</strong></p><ul><li>色彩不同的性格</li><li>色彩给人的感受</li><li>用色相配色</li><li>用明度配色</li><li>用纯度配色</li><li>用感情配色</li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的
+      
+      
+        &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;为了回家后可以有一个放松舒适的空间，颜色的搭配直接影响到了每一天的心情。所以紧急学习了色彩的知识。并且慢慢写在这里。分享给大家。有哪里不对的
+      
     
     </summary>
     
@@ -140,19 +87,15 @@
     <published>2016-10-02T11:09:53.000Z</published>
     <updated>2016-10-02T17:10:02.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h1><p>刚开始是在椿的成人礼中，因被鲲所救时害死了鲲，一心救鲲的过程中产生了情感。自此故事主线被灵婆发现并主导利用。</p>
-<h1 id="灵婆"><a href="#灵婆" class="headerlink" title="灵婆"></a>灵婆</h1><p>灵婆，用蚂蚱抽烟，用猫咪当板凳。很残忍的一个人，却掌管的是生前的好人灵魂。根据和自己变出的猫咪打麻将中可以看出灵婆是一个孤独的人。他说人总会遇见一个人,犯一个错,然后欠下些什么,你还不清的。说明他以前也经历过，心里清楚有人愿意付出。所以他不想孤独，刚好有一天桥头的椿说她想救男孩。这给了灵婆机会，灵婆知道她愿意交换，先拿去一半的生命让鲲长大，鲲长大会给这里带来灾难，灵婆心里很清楚，直到一切都无法回头时，椿自然愿意替代灵婆的位置。没想到湫的出现更快的让诺言承诺了。湫答应灵婆做灵婆的接班人，来换回椿的生命和快乐。于是有了电影结尾以后又出现的彩蛋。湫做了灵婆的接班人。一切的一切都是灵婆安排好的。</p>
-<h1 id="椿"><a href="#椿" class="headerlink" title="椿"></a>椿</h1><p>椿在成人礼中遇到了救她的鲲，鲲死后从爷爷那里得知有可能鲲的灵魂在某处，她去哪里吹曲子想着他能听到。结果被灵婆发现了这个机会。从此椿的命运被完全操作了。而她自己浑然不知。椿被灵婆误导养鲲长大，造成世界的大灾难。好进一步让椿没有回头路答应更苛刻的条件，做灵婆的继承人。从而自己获得自由。</p>
-<h1 id="鼠婆子"><a href="#鼠婆子" class="headerlink" title="鼠婆子"></a>鼠婆子</h1><p>鼠婆子是掌管生前的坏人灵魂，死后就会变成老鼠。但是鼠婆子知道灵婆要做的事情，还让湫管好自己的小老鼠。这里小老鼠的意思就是让湫不要帮助灵婆做坏事。因为鼠婆子看出湫为了椿什么都可以做。这里看出和灵婆的对比，其实鼠婆子相比没那么坏。</p>
-<h1 id="鲲"><a href="#鲲" class="headerlink" title="鲲"></a>鲲</h1><p>龙套</p>
-<h1 id="湫"><a href="#湫" class="headerlink" title="湫"></a>湫</h1><p>如果说灵婆是这个故事的操作者，那么实现者就是湫。是他将故事真的一步步的推进着，一直到灵婆完全控制了整个故事。</p>
-<p>整个想想，真的是细思极恐。</p>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="主线"><a href="#主线" class="headerlink" title="主线"></a>主线</h1><p>刚开始是在椿的成人礼中，因被鲲所救时害死了鲲，一心救鲲的过程中产生了情感。自此故事主线被灵婆发现并主导利用。</p><h1 id="灵婆"><a href="#灵婆" class="headerlink" title="灵婆"></a>灵婆</h1><p>灵婆，用蚂蚱抽烟，用猫咪当板凳。很残忍的一个人，却掌管的是生前的好人灵魂。根据和自己变出的猫咪打麻将中可以看出灵婆是一个孤独的人。他说人总会遇见一个人,犯一个错,然后欠下些什么,你还不清的。说明他以前也经历过，心里清楚有人愿意付出。所以他不想孤独，刚好有一天桥头的椿说她想救男孩。这给了灵婆机会，灵婆知道她愿意交换，先拿去一半的生命让鲲长大，鲲长大会给这里带来灾难，灵婆心里很清楚，直到一切都无法回头时，椿自然愿意替代灵婆的位置。没想到湫的出现更快的让诺言承诺了。湫答应灵婆做灵婆的接班人，来换回椿的生命和快乐。于是有了电影结尾以后又出现的彩蛋。湫做了灵婆的接班人。一切的一切都是灵婆安排好的。</p><h1 id="椿"><a href="#椿" class="headerlink" title="椿"></a>椿</h1><p>椿在成人礼中遇到了救她的鲲，鲲死后从爷爷那里得知有可能鲲的灵魂在某处，她去哪里吹曲子想着他能听到。结果被灵婆发现了这个机会。从此椿的命运被完全操作了。而她自己浑然不知。椿被灵婆误导养鲲长大，造成世界的大灾难。好进一步让椿没有回头路答应更苛刻的条件，做灵婆的继承人。从而自己获得自由。</p><h1 id="鼠婆子"><a href="#鼠婆子" class="headerlink" title="鼠婆子"></a>鼠婆子</h1><p>鼠婆子是掌管生前的坏人灵魂，死后就会变成老鼠。但是鼠婆子知道灵婆要做的事情，还让湫管好自己的小老鼠。这里小老鼠的意思就是让湫不要帮助灵婆做坏事。因为鼠婆子看出湫为了椿什么都可以做。这里看出和灵婆的对比，其实鼠婆子相比没那么坏。</p><h1 id="鲲"><a href="#鲲" class="headerlink" title="鲲"></a>鲲</h1><p>龙套</p><h1 id="湫"><a href="#湫" class="headerlink" title="湫"></a>湫</h1><p>如果说灵婆是这个故事的操作者，那么实现者就是湫。是他将故事真的一步步的推进着，一直到灵婆完全控制了整个故事。</p><p>整个想想，真的是细思极恐。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;主线&quot;&gt;&lt;a href=&quot;#主线&quot; class=&quot;headerlink&quot; title=&quot;主线&quot;&gt;&lt;/a&gt;主线&lt;/h1&gt;&lt;p&gt;刚开始是在椿的成人礼中，因被鲲所救时害死了鲲，一心救鲲的过程中产生了情感。自此故事主线被灵婆发现并主导利用。&lt;/p&gt;
+      
+      
+        &lt;h1 id=&quot;主线&quot;&gt;&lt;a href=&quot;#主线&quot; class=&quot;headerlink&quot; title=&quot;主线&quot;&gt;&lt;/a&gt;主线&lt;/h1&gt;&lt;p&gt;刚开始是在椿的成人礼中，因被鲲所救时害死了鲲，一心救鲲的过程中产生了情感。自此故事主线被灵婆发现并主导利用。&lt;/p&gt;
 &lt;h1 id=&quot;灵婆&quot;
+      
     
     </summary>
     
@@ -168,26 +111,16 @@
     <published>2016-09-08T02:47:55.000Z</published>
     <updated>2016-09-09T00:46:48.000Z</updated>
     
-    <content type="html"><![CDATA[<p><code>Apple Pay</code>是一种简单，安全，隐私的，它内置集成了硬件和软件两种安全。</p>
-<p><code>Apple Pay</code>保护用户个人信息。它不回采集任何传输信息，支付信息只在和其他用户，商户，信用卡之间传输。</p>
-<h1 id="Apple-Pay-组件"><a href="#Apple-Pay-组件" class="headerlink" title="Apple Pay 组件"></a>Apple Pay 组件</h1><p><strong>安全元器件</strong></p>
-<p>这个元器件是一个工业标准的，被授权在<code>Java Card</code>平台运行，并且符合行业支付标准。</p>
-<p><strong>NFC控制</strong></p>
-<p>NFC控制器会处理贴近的相同元器件和协议的设备，并且支持<code>POS(Point-of-sale)</code>机器。</p>
-<p><strong>钱包(Wallet)</strong></p>
-<p>钱包用于添加和管理信用卡，借记卡，优惠券，礼物卡等，他们都可以使用<code>Apply Pay</code>。用户可以查看这些卡和详情，和这些发卡机构的隐私和权益，近期交易等。用户也可以添加卡到<code>Apply Pay</code>在设置中。</p>
-<p><strong>Secure Enclave</strong></p>
-<p>在iPhone和iPad中，<code>Secure Enclave</code>保护管理授权进度，启用支付。它用<code>Touch ID</code>存储指纹数据。</p>
-<p>在苹果表中，设备必须解锁，用户必须通过双击边缘按钮到达<code>Secure Enclave</code>。</p>
-<p><strong>苹果支付服务</strong></p>
-<p>苹果支付服务管理的信用卡和借记卡在钱包中和设备账号都存储在安全元器件中，两个设备通过支付网络服务来传输数据，苹果支付服务也支持支付Apps。</p>
-]]></content>
+    <content type="html"><![CDATA[<p><code>Apple Pay</code>是一种简单，安全，隐私的，它内置集成了硬件和软件两种安全。</p><p><code>Apple Pay</code>保护用户个人信息。它不回采集任何传输信息，支付信息只在和其他用户，商户，信用卡之间传输。</p><h1 id="Apple-Pay-组件"><a href="#Apple-Pay-组件" class="headerlink" title="Apple Pay 组件"></a>Apple Pay 组件</h1><p><strong>安全元器件</strong></p><p>这个元器件是一个工业标准的，被授权在<code>Java Card</code>平台运行，并且符合行业支付标准。</p><p><strong>NFC控制</strong></p><p>NFC控制器会处理贴近的相同元器件和协议的设备，并且支持<code>POS(Point-of-sale)</code>机器。</p><p><strong>钱包(Wallet)</strong></p><p>钱包用于添加和管理信用卡，借记卡，优惠券，礼物卡等，他们都可以使用<code>Apply Pay</code>。用户可以查看这些卡和详情，和这些发卡机构的隐私和权益，近期交易等。用户也可以添加卡到<code>Apply Pay</code>在设置中。</p><p><strong>Secure Enclave</strong></p><p>在iPhone和iPad中，<code>Secure Enclave</code>保护管理授权进度，启用支付。它用<code>Touch ID</code>存储指纹数据。</p><p>在苹果表中，设备必须解锁，用户必须通过双击边缘按钮到达<code>Secure Enclave</code>。</p><p><strong>苹果支付服务</strong></p><p>苹果支付服务管理的信用卡和借记卡在钱包中和设备账号都存储在安全元器件中，两个设备通过支付网络服务来传输数据，苹果支付服务也支持支付Apps。</p>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;code&gt;Apple Pay&lt;/code&gt;是一种简单，安全，隐私的，它内置集成了硬件和软件两种安全。&lt;/p&gt;
+      
+      
+        &lt;p&gt;&lt;code&gt;Apple Pay&lt;/code&gt;是一种简单，安全，隐私的，它内置集成了硬件和软件两种安全。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Apple Pay&lt;/code&gt;保护用户个人信息。它不回采集任何传输信息，支付信息只在和其他用户，商户，信用卡之间传输。&lt;/p&gt;
 &lt;h1 id=
+      
     
     </summary>
     
@@ -201,41 +134,14 @@
     <published>2016-08-31T08:03:13.000Z</published>
     <updated>2016-09-14T14:43:31.000Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="App-code-signing"><a href="#App-code-signing" class="headerlink" title="App code signing"></a>App code signing</h1><p>当iOS系统启动后，<code>App code
-signing</code>控制着哪些用户的进程/App可以被运行，并且确保所有的Apps来源安全，iOS要求所有的可执行代码被苹果证书签名，例如苹果自己的App，<code>Mail</code>，<code>Safari</code>呀这些。我们开发的第三方Apps同样必须被苹果证书签名，iOS强制使用信任链的概念来签名Apps，并且阻止加载未签名的App和虽然签名但是被修改了代码的App。</p>
-<p>iOS允许开发者内嵌其他的Frameworks在自己的Apps中，它可以被自己的其他内置的<code>extensions</code>调用。为了保护其他App加载第三方的代码，系统会在link的时候对第三方的代码或者动态库同样签名，签名是通过证书的<code>Team identifier</code>来做的，简称<code>TeamID</code>，它是由10位的字母和数字组成。同样<code>TeamID</code>签名的任何Library，都可以被主程序调用。!</p>
-<p>商用Apps，可以用<code>in-house</code>方式分发给员工。并且需要应用<code>Apple Developer Enterprise Program (ADEP)</code>，<code>ADEP</code>需要生成一个<code>Provisioning Profile</code>来许可自己的App被安装。只有设备安装了这个<code>Provisioning Profile</code>，才可以安装和允许商用App，这间接的确保了信任关系。</p>
-<p>iOS不像其他手机平台，iOS不允许运行从网站下载的未签名的程序，不允许运行不信任的代码。并且会在运行时候检查内存中可执行程序，确保App没有被在安装后或者升级后被串改。</p>
-<h1 id="Runtime-process-security"><a href="#Runtime-process-security" class="headerlink" title="Runtime process security"></a>Runtime process security</h1><p>在iOS<br>App被签名验证之后，iOS会强行使用安全机制来保护，不让其他App影响自己或者影响别的App。</p>
-<p>所有的第三方App都在Sandbox中运行，它不可以访问或着修改别的App或者系统设备。每个App都有一个唯一的Home目录，当App被安装的时候。他们只能使用系统提供的服务来访问没有权限的部分。每个App都有一个<code>key value pair</code>，这就像<code>unix user ID</code>的权限一样。</p>
-<p>App只能通过系统提供的API在后台运行自己的程序，这样可以保证可以后台执行，并且保护电池寿命。</p>
-<p>地址空间布局随机化(<code>ASLR</code>)保护，让内存溢出攻击变得不那么容易，系统内置的App都使用了这个技术，它让可执行代码，系统库的攻击都增加了复杂度。</p>
-<p>在Xocde中，开发第三方App时候，默认开启<code>ASLR</code>支持，在编译的时候。</p>
-<p>进一步的保护是，让内存页不可执行，内存也有2个标记，可写和可执行，这被严格控制着。内核只检查动态签名，即便如此，单项调用可执行和可写，它会被随机分配一个地址。<code>Safari</code>的<code>javascript JIT</code>编译器就是如此。</p>
-<h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><p>iOS允许App通过<code>Extensions</code>提供功能，<code>Extensions</code>的二进制可执行文件被特殊的签名而签名，并且打包在app中。系统会自动找到<code>Extensions</code>在安装的时候，并且让他们可以工作。</p>
-<p>每个<code>Extensions</code>提供一些APIs可以被使用，每个<code>Extensions</code>都有一些固定功能，系统自动运行这些<code>Extensions</code>在系统需要的时候，并且会管理他们的生命周期。<code>Entitlements</code>用来限制<code>Extensions</code>的权限，例如<code>Today view widget</code>只能出现在<code>Notification Center</code>，<code>Sharing</code>只能出现在共享面板。这些<code>Extensions</code>通常有，<code>Today</code>，共享，自定义<code>Actions</code>，图片编辑，文档提供和自定义键盘。</p>
-<p><code>Extensions</code>运行在独立的空间中，两个<code>Extensions</code>之间只能通过系统提供的API来通信，不能互相访问内存或者文件系统，他们相互隔离，打包在一个App中。他们之间就想我们开发的第三方App的<code>Sandbox</code>一样，他们共享App的权限，例如App被授权访问联系人，那么这个<code>Extension</code>也可以访问联系人。如果在<code>Extension</code>中授权了访问联系人权限，系统会吧权限给App而不是这个<code>Extension</code>。</p>
-<p>自定义键盘是一个特殊的<code>Extension</code>，它需要用户在系统设置里启用。当启用时，这个<code>Extension</code>将被用户用户在任何输入框中。因权限，自定义键盘默认运行在<code>Sandbox</code>中，它非常限制网络访问，API只能扩展用户输入数据。开发人员可以请求开放权限，系统会在用户同意后运行这个<code>Extension</code>。</p>
-<p>通过自定义<code>Extension</code>，开发人员可以用第三方的键盘给自己的App。</p>
-<h1 id="App-Group"><a href="#App-Group" class="headerlink" title="App Group"></a>App Group</h1><p><code>Apps</code>和<code>Extensions</code>都是同一个开发账号下的话，他们可以共享他们的数据，当配置了<code>App Group</code>后。配置一次<code>App Group</code>, <code>Apps</code>就拥有一下访问权限。</p>
-<ul>
-<li>分享磁盘中的存储数据</li>
-<li>这些数据会被保存直到该<code>Group</code>下最后一个应用被删除。</li>
-<li>共享<code>Preferences</code></li>
-<li>共享<code>Keychain</code>数据</li>
-</ul>
-<p>每一个<code>App Group IDs</code>都是唯一的。</p>
-<h1 id="Data-Protection-in-apps"><a href="#Data-Protection-in-apps" class="headerlink" title="Data Protection in apps"></a>Data Protection in apps</h1><p>iOS有丰富的API让苹果内部开发人员和第三方开发者选择数据保护来确保他们的app安全。数据保护可以用在文件和数据库，包括<code>NSFileManager</code>, <code>CoreData</code>, <code>NSData</code>, <code>SQLite</code>.</p>
-<p>系统的<code>Mail</code> app(包括附件)，被管理的书，Safari的书签，App运行图片，位置数据，被存储在安全的密码，用户的密码和指纹，日历(包括附件)，联系人，提醒事项，记事本，短信，照片都实现了<code>Protected Until First User Authentication</code>.</p>
-<p>用户自己安装的Apps是没有特殊保护的，默认只有一种保护叫做<code>Protected Until First User Authentication</code>.</p>
-<h1 id="Accessories"><a href="#Accessories" class="headerlink" title="Accessories"></a>Accessories</h1><p>硬件访问iPhone, iPod touch和iPad都有一个认证(简称<code>MFi认证</code>)通过<code>iAP</code>协议来许可程序访问硬件接口。当需要用雷电接口链接设备或者通过蓝牙来访问的时候，设备会要求访问者它需要被<code>Apple</code>提供的<code>MFi</code>验证过。设备会发送一个<code>Challenge</code>，访问者需要回复被签名答案。</p>
-<p><code>Accessories</code>可以用不同的方式来访问。例如访问数字音频流通过雷电接口，或者通过蓝牙获取定位信息。如果访问者不提供<code>MFi</code>授权，它只能访问被限制的模拟音频信号和<code>UART</code>音频控制器。<code>UART</code>我猜是播放，停止，下一曲这种简单控制。</p>
-<p><code>Airplay</code>也利用IC来授权验证。<code>Airplay</code>音频和<code>CarPlay</code>视频流都利用了<code>MFi-SAP</code>(<code>Secure Association Protocol</code>)，他让设备和访问者之间的数据安全传输，并且使用<code>AES-128``CTR</code>模式。使用<code>ECDH key</code>交换(<code>Curve25519</code>)和被<code>IC&#39;s 1024-bit RSA</code>签名，作为<code>STS</code>(<code>Station-to-Station</code>)协议。</p>
-]]></content>
+    <content type="html"><![CDATA[<h1 id="App-code-signing"><a href="#App-code-signing" class="headerlink" title="App code signing"></a>App code signing</h1><p>当iOS系统启动后，<code>App codesigning</code>控制着哪些用户的进程/App可以被运行，并且确保所有的Apps来源安全，iOS要求所有的可执行代码被苹果证书签名，例如苹果自己的App，<code>Mail</code>，<code>Safari</code>呀这些。我们开发的第三方Apps同样必须被苹果证书签名，iOS强制使用信任链的概念来签名Apps，并且阻止加载未签名的App和虽然签名但是被修改了代码的App。</p><p>iOS允许开发者内嵌其他的Frameworks在自己的Apps中，它可以被自己的其他内置的<code>extensions</code>调用。为了保护其他App加载第三方的代码，系统会在link的时候对第三方的代码或者动态库同样签名，签名是通过证书的<code>Team identifier</code>来做的，简称<code>TeamID</code>，它是由10位的字母和数字组成。同样<code>TeamID</code>签名的任何Library，都可以被主程序调用。!</p><p>商用Apps，可以用<code>in-house</code>方式分发给员工。并且需要应用<code>Apple Developer Enterprise Program (ADEP)</code>，<code>ADEP</code>需要生成一个<code>Provisioning Profile</code>来许可自己的App被安装。只有设备安装了这个<code>Provisioning Profile</code>，才可以安装和允许商用App，这间接的确保了信任关系。</p><p>iOS不像其他手机平台，iOS不允许运行从网站下载的未签名的程序，不允许运行不信任的代码。并且会在运行时候检查内存中可执行程序，确保App没有被在安装后或者升级后被串改。</p><h1 id="Runtime-process-security"><a href="#Runtime-process-security" class="headerlink" title="Runtime process security"></a>Runtime process security</h1><p>在iOS<br>App被签名验证之后，iOS会强行使用安全机制来保护，不让其他App影响自己或者影响别的App。</p><p>所有的第三方App都在Sandbox中运行，它不可以访问或着修改别的App或者系统设备。每个App都有一个唯一的Home目录，当App被安装的时候。他们只能使用系统提供的服务来访问没有权限的部分。每个App都有一个<code>key value pair</code>，这就像<code>unix user ID</code>的权限一样。</p><p>App只能通过系统提供的API在后台运行自己的程序，这样可以保证可以后台执行，并且保护电池寿命。</p><p>地址空间布局随机化(<code>ASLR</code>)保护，让内存溢出攻击变得不那么容易，系统内置的App都使用了这个技术，它让可执行代码，系统库的攻击都增加了复杂度。</p><p>在Xocde中，开发第三方App时候，默认开启<code>ASLR</code>支持，在编译的时候。</p><p>进一步的保护是，让内存页不可执行，内存也有2个标记，可写和可执行，这被严格控制着。内核只检查动态签名，即便如此，单项调用可执行和可写，它会被随机分配一个地址。<code>Safari</code>的<code>javascript JIT</code>编译器就是如此。</p><h1 id="Extensions"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions</h1><p>iOS允许App通过<code>Extensions</code>提供功能，<code>Extensions</code>的二进制可执行文件被特殊的签名而签名，并且打包在app中。系统会自动找到<code>Extensions</code>在安装的时候，并且让他们可以工作。</p><p>每个<code>Extensions</code>提供一些APIs可以被使用，每个<code>Extensions</code>都有一些固定功能，系统自动运行这些<code>Extensions</code>在系统需要的时候，并且会管理他们的生命周期。<code>Entitlements</code>用来限制<code>Extensions</code>的权限，例如<code>Today view widget</code>只能出现在<code>Notification Center</code>，<code>Sharing</code>只能出现在共享面板。这些<code>Extensions</code>通常有，<code>Today</code>，共享，自定义<code>Actions</code>，图片编辑，文档提供和自定义键盘。</p><p><code>Extensions</code>运行在独立的空间中，两个<code>Extensions</code>之间只能通过系统提供的API来通信，不能互相访问内存或者文件系统，他们相互隔离，打包在一个App中。他们之间就想我们开发的第三方App的<code>Sandbox</code>一样，他们共享App的权限，例如App被授权访问联系人，那么这个<code>Extension</code>也可以访问联系人。如果在<code>Extension</code>中授权了访问联系人权限，系统会吧权限给App而不是这个<code>Extension</code>。</p><p>自定义键盘是一个特殊的<code>Extension</code>，它需要用户在系统设置里启用。当启用时，这个<code>Extension</code>将被用户用户在任何输入框中。因权限，自定义键盘默认运行在<code>Sandbox</code>中，它非常限制网络访问，API只能扩展用户输入数据。开发人员可以请求开放权限，系统会在用户同意后运行这个<code>Extension</code>。</p><p>通过自定义<code>Extension</code>，开发人员可以用第三方的键盘给自己的App。</p><h1 id="App-Group"><a href="#App-Group" class="headerlink" title="App Group"></a>App Group</h1><p><code>Apps</code>和<code>Extensions</code>都是同一个开发账号下的话，他们可以共享他们的数据，当配置了<code>App Group</code>后。配置一次<code>App Group</code>, <code>Apps</code>就拥有一下访问权限。</p><ul><li>分享磁盘中的存储数据</li><li>这些数据会被保存直到该<code>Group</code>下最后一个应用被删除。</li><li>共享<code>Preferences</code></li><li>共享<code>Keychain</code>数据</li></ul><p>每一个<code>App Group IDs</code>都是唯一的。</p><h1 id="Data-Protection-in-apps"><a href="#Data-Protection-in-apps" class="headerlink" title="Data Protection in apps"></a>Data Protection in apps</h1><p>iOS有丰富的API让苹果内部开发人员和第三方开发者选择数据保护来确保他们的app安全。数据保护可以用在文件和数据库，包括<code>NSFileManager</code>, <code>CoreData</code>, <code>NSData</code>, <code>SQLite</code>.</p><p>系统的<code>Mail</code> app(包括附件)，被管理的书，Safari的书签，App运行图片，位置数据，被存储在安全的密码，用户的密码和指纹，日历(包括附件)，联系人，提醒事项，记事本，短信，照片都实现了<code>Protected Until First User Authentication</code>.</p><p>用户自己安装的Apps是没有特殊保护的，默认只有一种保护叫做<code>Protected Until First User Authentication</code>.</p><h1 id="Accessories"><a href="#Accessories" class="headerlink" title="Accessories"></a>Accessories</h1><p>硬件访问iPhone, iPod touch和iPad都有一个认证(简称<code>MFi认证</code>)通过<code>iAP</code>协议来许可程序访问硬件接口。当需要用雷电接口链接设备或者通过蓝牙来访问的时候，设备会要求访问者它需要被<code>Apple</code>提供的<code>MFi</code>验证过。设备会发送一个<code>Challenge</code>，访问者需要回复被签名答案。</p><p><code>Accessories</code>可以用不同的方式来访问。例如访问数字音频流通过雷电接口，或者通过蓝牙获取定位信息。如果访问者不提供<code>MFi</code>授权，它只能访问被限制的模拟音频信号和<code>UART</code>音频控制器。<code>UART</code>我猜是播放，停止，下一曲这种简单控制。</p><p><code>Airplay</code>也利用IC来授权验证。<code>Airplay</code>音频和<code>CarPlay</code>视频流都利用了<code>MFi-SAP</code>(<code>Secure Association Protocol</code>)，他让设备和访问者之间的数据安全传输，并且使用<code>AES-128``CTR</code>模式。使用<code>ECDH key</code>交换(<code>Curve25519</code>)和被<code>IC&#39;s 1024-bit RSA</code>签名，作为<code>STS</code>(<code>Station-to-Station</code>)协议。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;App-code-signing&quot;&gt;&lt;a href=&quot;#App-code-signing&quot; class=&quot;headerlink&quot; title=&quot;App code signing&quot;&gt;&lt;/a&gt;App code signing&lt;/h1&gt;&lt;p&gt;当iOS系统启动后，&lt;cod
+      
+      
+        &lt;h1 id=&quot;App-code-signing&quot;&gt;&lt;a href=&quot;#App-code-signing&quot; class=&quot;headerlink&quot; title=&quot;App code signing&quot;&gt;&lt;/a&gt;App code signing&lt;/h1&gt;&lt;p&gt;当iOS系统启动后，&lt;cod
+      
     
     </summary>
     
@@ -249,21 +155,14 @@ signing</code>控制着哪些用户的进程/App可以被运行，并且确保�
     <published>2016-04-12T08:03:05.000Z</published>
     <updated>2016-08-31T08:54:11.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="简单解释"><a href="#简单解释" class="headerlink" title="简单解释"></a>简单解释</h3><p>首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，所以引用的对象不是Optional类型，而weak是不确定此时值是否存在，是Optional类型。</p>
-<p>请看例子</p>
-<h4 id="weak"><a href="#weak" class="headerlink" title="weak"></a>weak</h4><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xxx.callback &#123; [<span class="keyword">weak</span> <span class="keyword">self</span>] <span class="keyword">in</span></div><div class="line">  <span class="keyword">self</span>?.property</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h4 id="unowned"><a href="#unowned" class="headerlink" title="unowned"></a>unowned</h4><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xxx.callback &#123; [<span class="keyword">unowned</span> <span class="keyword">self</span>] <span class="keyword">in</span></div><div class="line">  <span class="keyword">self</span>.property</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="出处"><a href="#出处" class="headerlink" title="出处"></a>出处</h3><p><a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html" target="_blank" rel="external">Apple Doc</a></p>
-<p>请看一下两部分</p>
-<ul>
-<li>Weak References</li>
-<li>Unowned References</li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h3 id="简单解释"><a href="#简单解释" class="headerlink" title="简单解释"></a>简单解释</h3><p>首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，所以引用的对象不是Optional类型，而weak是不确定此时值是否存在，是Optional类型。</p><p>请看例子</p><h4 id="weak"><a href="#weak" class="headerlink" title="weak"></a>weak</h4><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xxx.callback &#123; [<span class="keyword">weak</span> <span class="keyword">self</span>] <span class="keyword">in</span></div><div class="line">  <span class="keyword">self</span>?.property</div><div class="line">&#125;</div></pre></td></tr></table></figure><h4 id="unowned"><a href="#unowned" class="headerlink" title="unowned"></a>unowned</h4><figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">xxx.callback &#123; [<span class="keyword">unowned</span> <span class="keyword">self</span>] <span class="keyword">in</span></div><div class="line">  <span class="keyword">self</span>.property</div><div class="line">&#125;</div></pre></td></tr></table></figure><h3 id="出处"><a href="#出处" class="headerlink" title="出处"></a>出处</h3><p><a href="https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/AutomaticReferenceCounting.html" target="_blank" rel="external">Apple Doc</a></p><p>请看一下两部分</p><ul><li>Weak References</li><li>Unowned References</li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h3 id=&quot;简单解释&quot;&gt;&lt;a href=&quot;#简单解释&quot; class=&quot;headerlink&quot; title=&quot;简单解释&quot;&gt;&lt;/a&gt;简单解释&lt;/h3&gt;&lt;p&gt;首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，
+      
+      
+        &lt;h3 id=&quot;简单解释&quot;&gt;&lt;a href=&quot;#简单解释&quot; class=&quot;headerlink&quot; title=&quot;简单解释&quot;&gt;&lt;/a&gt;简单解释&lt;/h3&gt;&lt;p&gt;首先她们都是弱引用，不会让retainCount数增加。区别是，unowned常用在自己写程序时候，明确知道这里的值不为空，
+      
     
     </summary>
     
@@ -277,30 +176,14 @@ signing</code>控制着哪些用户的进程/App可以被运行，并且确保�
     <published>2016-04-02T08:02:52.000Z</published>
     <updated>2016-08-31T08:53:44.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Vagrant-VS-docker-machine"><a href="#Vagrant-VS-docker-machine" class="headerlink" title="Vagrant VS docker-machine"></a>Vagrant VS docker-machine</h2><ul>
-<li>Vagrant<br>有更多的虚拟机基础包可以选择，而docker-machine只有一个基础包。</li>
-<li>Vagrant可以使用brew安装和卸载，docker-machine不可以。</li>
-<li>Vagrant提供文件同步等插件，还有网络ip等方便的配置文件，docker-machine需要命令can<br>参数，不直观。</li>
-</ul>
-<h2 id="安装Vagrant"><a href="#安装Vagrant" class="headerlink" title="安装Vagrant"></a>安装Vagrant</h2><p><code>brew cask install vagrant</code></p>
-<h2 id="使用Vagrant创建一个带有docker的虚拟机"><a href="#使用Vagrant创建一个带有docker的虚拟机" class="headerlink" title="使用Vagrant创建一个带有docker的虚拟机"></a>使用Vagrant创建一个带有docker的虚拟机</h2><p><code>vagrant init williamyeh/ubuntu-trusty64-docker</code></p>
-<h2 id="给虚拟机一个ip，方便以后访问"><a href="#给虚拟机一个ip，方便以后访问" class="headerlink" title="给虚拟机一个ip，方便以后访问"></a>给虚拟机一个ip，方便以后访问</h2><p>释放这条配置</p>
-<p><code>config.vm.network &quot;private_network&quot;, ip: &quot;192.168.33.10&quot;</code></p>
-<h2 id="同步本目录到虚拟机中"><a href="#同步本目录到虚拟机中" class="headerlink" title="同步本目录到虚拟机中"></a>同步本目录到虚拟机中</h2><p>释放这条配置，并修改。主要需要<code>rsync</code>。</p>
-<p><code>config.vm.synced_folder &quot;./&quot;, &quot;/vagrant_data&quot;, type: &quot;rsync&quot;</code></p>
-<h2 id="启动虚拟机"><a href="#启动虚拟机" class="headerlink" title="启动虚拟机"></a>启动虚拟机</h2><p><code>vagrant up</code></p>
-<h2 id="进入虚拟机"><a href="#进入虚拟机" class="headerlink" title="进入虚拟机"></a>进入虚拟机</h2><p><code>vagrant ssh</code></p>
-<p>接下来，就可以使用docker啦。</p>
-<h2 id="同步文件目录，当文件被修改的时候。"><a href="#同步文件目录，当文件被修改的时候。" class="headerlink" title="同步文件目录，当文件被修改的时候。"></a>同步文件目录，当文件被修改的时候。</h2><p><code>vagrant rsync-auto</code></p>
-<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul>
-<li><a href="https://www.vagrantup.com/docs/synced-folders/rsync.html" target="_blank" rel="external">RSYNC</a></li>
-<li><a href="https://www.vagrantup.com/docs/cli/rsync-auto.html" target="_blank" rel="external">RSYNC-AUTO</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="Vagrant-VS-docker-machine"><a href="#Vagrant-VS-docker-machine" class="headerlink" title="Vagrant VS docker-machine"></a>Vagrant VS docker-machine</h2><ul><li>Vagrant<br>有更多的虚拟机基础包可以选择，而docker-machine只有一个基础包。</li><li>Vagrant可以使用brew安装和卸载，docker-machine不可以。</li><li>Vagrant提供文件同步等插件，还有网络ip等方便的配置文件，docker-machine需要命令can<br>参数，不直观。</li></ul><h2 id="安装Vagrant"><a href="#安装Vagrant" class="headerlink" title="安装Vagrant"></a>安装Vagrant</h2><p><code>brew cask install vagrant</code></p><h2 id="使用Vagrant创建一个带有docker的虚拟机"><a href="#使用Vagrant创建一个带有docker的虚拟机" class="headerlink" title="使用Vagrant创建一个带有docker的虚拟机"></a>使用Vagrant创建一个带有docker的虚拟机</h2><p><code>vagrant init williamyeh/ubuntu-trusty64-docker</code></p><h2 id="给虚拟机一个ip，方便以后访问"><a href="#给虚拟机一个ip，方便以后访问" class="headerlink" title="给虚拟机一个ip，方便以后访问"></a>给虚拟机一个ip，方便以后访问</h2><p>释放这条配置</p><p><code>config.vm.network &quot;private_network&quot;, ip: &quot;192.168.33.10&quot;</code></p><h2 id="同步本目录到虚拟机中"><a href="#同步本目录到虚拟机中" class="headerlink" title="同步本目录到虚拟机中"></a>同步本目录到虚拟机中</h2><p>释放这条配置，并修改。主要需要<code>rsync</code>。</p><p><code>config.vm.synced_folder &quot;./&quot;, &quot;/vagrant_data&quot;, type: &quot;rsync&quot;</code></p><h2 id="启动虚拟机"><a href="#启动虚拟机" class="headerlink" title="启动虚拟机"></a>启动虚拟机</h2><p><code>vagrant up</code></p><h2 id="进入虚拟机"><a href="#进入虚拟机" class="headerlink" title="进入虚拟机"></a>进入虚拟机</h2><p><code>vagrant ssh</code></p><p>接下来，就可以使用docker啦。</p><h2 id="同步文件目录，当文件被修改的时候。"><a href="#同步文件目录，当文件被修改的时候。" class="headerlink" title="同步文件目录，当文件被修改的时候。"></a>同步文件目录，当文件被修改的时候。</h2><p><code>vagrant rsync-auto</code></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul><li><a href="https://www.vagrantup.com/docs/synced-folders/rsync.html" target="_blank" rel="external">RSYNC</a></li><li><a href="https://www.vagrantup.com/docs/cli/rsync-auto.html" target="_blank" rel="external">RSYNC-AUTO</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;Vagrant-VS-docker-machine&quot;&gt;&lt;a href=&quot;#Vagrant-VS-docker-machine&quot; class=&quot;headerlink&quot; title=&quot;Vagrant VS docker-machine&quot;&gt;&lt;/a&gt;Vagrant VS 
+      
+      
+        &lt;h2 id=&quot;Vagrant-VS-docker-machine&quot;&gt;&lt;a href=&quot;#Vagrant-VS-docker-machine&quot; class=&quot;headerlink&quot; title=&quot;Vagrant VS docker-machine&quot;&gt;&lt;/a&gt;Vagrant VS 
+      
     
     </summary>
     
@@ -314,29 +197,15 @@ signing</code>控制着哪些用户的进程/App可以被运行，并且确保�
     <published>2016-02-04T08:02:34.000Z</published>
     <updated>2016-08-31T08:48:53.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="序章"><a href="#序章" class="headerlink" title="序章"></a>序章</h2><p><a href="/use-realm-on-kotlin/">使用Realm在Kotlin中(Android)</a></p>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="App第一个版本"><a href="#App第一个版本" class="headerlink" title="App第一个版本"></a>App第一个版本</h3><p>RealmLink.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmLink</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> url: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> title: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> createDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> tags: RealmList&lt;RealmTag&gt;? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>RealmTag.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmTag</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> name: String? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>MainActivity.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> tags = arrayListOf(<span class="string">"Web"</span>, <span class="string">"Search"</span>)</div><div class="line"><span class="comment">// 得到配置(暂无数据迁移)</span></div><div class="line"><span class="keyword">val</span> config = RealmConfiguration.Builder(context).build()</div><div class="line"><span class="comment">// 获得数据库对象</span></div><div class="line"><span class="keyword">val</span> realm = Realm.getInstance(config)</div><div class="line"><span class="comment">// 执行事务</span></div><div class="line">realm.executeTransaction &#123;</div><div class="line">    <span class="comment">// 创建RealmLink对象</span></div><div class="line">    <span class="keyword">val</span> realmLink = realm.createObject(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">    realmLink.title = <span class="string">"Google"</span></div><div class="line">    realmLink.url = <span class="string">"https://google.com"</span></div><div class="line">    realmLink.createDate = Date()</div><div class="line">    tags.forEach &#123; it -&gt;</div><div class="line">        <span class="keyword">val</span> realmTag = realm.createObject(RealmTag::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">        realmTag.name = it</div><div class="line">        realmLink.tags?.add(realmTag)</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 存储</span></div><div class="line">    realm.copyFromRealm(realmLink)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h3 id="App第二个版本"><a href="#App第二个版本" class="headerlink" title="App第二个版本"></a>App第二个版本</h3><p>RealmLink.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmLink</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> url: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> title: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> createDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> modifiedDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> tags: RealmList&lt;RealmTag&gt;? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>RealmTag.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmTag</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> name: String? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>MainActivity.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> tags = arrayListOf(<span class="string">"Web"</span>, <span class="string">"Search"</span>)</div><div class="line"><span class="comment">// 得到配置(数据迁移到版本1)</span></div><div class="line"><span class="keyword">val</span> config = RealmConfiguration.Builder(<span class="keyword">this</span>)</div><div class="line">            .schemaVersion(<span class="number">1</span>) <span class="comment">// 新版本1</span></div><div class="line">            .migration &#123; realm, oldVersion, newVersion -&gt;</div><div class="line">                <span class="keyword">var</span> version = oldVersion</div><div class="line">                <span class="keyword">val</span> schema = realm.schema</div><div class="line"></div><div class="line">                <span class="keyword">if</span> (version == <span class="number">0</span>L) &#123; <span class="comment">// 旧版本0</span></div><div class="line">                    schema.<span class="keyword">get</span>(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>.<span class="title">simpleName</span>)</span></div><div class="line">                            .addField(<span class="string">"modifiedDate"</span>, Date::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">                    version++</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            .build()</div><div class="line"><span class="comment">// 获得数据库对象</span></div><div class="line"><span class="keyword">val</span> realm = Realm.getInstance(config)</div><div class="line"><span class="comment">// 执行事务</span></div><div class="line">realm.executeTransaction &#123;</div><div class="line">    <span class="comment">// 创建RealmLink对象</span></div><div class="line">    <span class="keyword">val</span> realmLink = realm.createObject(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">    realmLink.title = <span class="string">"Google"</span></div><div class="line">    realmLink.url = <span class="string">"https://google.com"</span></div><div class="line">    realmLink.createDate = Date()</div><div class="line">    realmLink.modifiedDate = Date()</div><div class="line">    tags.forEach &#123; it -&gt;</div><div class="line">        <span class="keyword">val</span> realmTag = realm.createObject(RealmTag::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">        realmTag.name = it</div><div class="line">        realmLink.tags?.add(realmTag)</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 存储</span></div><div class="line">    realm.copyFromRealm(realmLink)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><blockquote>
-<p>如果首次安装App，它会执行迁移吗？</p>
-</blockquote>
-<p>回答：不会，首次安装App，会按照你所有的Model类，自动创建结构。只有更新App(数据字段有更新)后，才会执行迁移，哪怕配置了迁移，第一次也不会执行。</p>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="序章"><a href="#序章" class="headerlink" title="序章"></a>序章</h2><p><a href="/use-realm-on-kotlin/">使用Realm在Kotlin中(Android)</a></p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h3 id="App第一个版本"><a href="#App第一个版本" class="headerlink" title="App第一个版本"></a>App第一个版本</h3><p>RealmLink.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmLink</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> url: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> title: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> createDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> tags: RealmList&lt;RealmTag&gt;? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>RealmTag.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmTag</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> name: String? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>MainActivity.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> tags = arrayListOf(<span class="string">"Web"</span>, <span class="string">"Search"</span>)</div><div class="line"><span class="comment">// 得到配置(暂无数据迁移)</span></div><div class="line"><span class="keyword">val</span> config = RealmConfiguration.Builder(context).build()</div><div class="line"><span class="comment">// 获得数据库对象</span></div><div class="line"><span class="keyword">val</span> realm = Realm.getInstance(config)</div><div class="line"><span class="comment">// 执行事务</span></div><div class="line">realm.executeTransaction &#123;</div><div class="line">    <span class="comment">// 创建RealmLink对象</span></div><div class="line">    <span class="keyword">val</span> realmLink = realm.createObject(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">    realmLink.title = <span class="string">"Google"</span></div><div class="line">    realmLink.url = <span class="string">"https://google.com"</span></div><div class="line">    realmLink.createDate = Date()</div><div class="line">    tags.forEach &#123; it -&gt;</div><div class="line">        <span class="keyword">val</span> realmTag = realm.createObject(RealmTag::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">        realmTag.name = it</div><div class="line">        realmLink.tags?.add(realmTag)</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 存储</span></div><div class="line">    realm.copyFromRealm(realmLink)</div><div class="line">&#125;</div></pre></td></tr></table></figure><h3 id="App第二个版本"><a href="#App第二个版本" class="headerlink" title="App第二个版本"></a>App第二个版本</h3><p>RealmLink.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmLink</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> url: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> title: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> createDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> modifiedDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> tags: RealmList&lt;RealmTag&gt;? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>RealmTag.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmTag</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> name: String? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>MainActivity.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> tags = arrayListOf(<span class="string">"Web"</span>, <span class="string">"Search"</span>)</div><div class="line"><span class="comment">// 得到配置(数据迁移到版本1)</span></div><div class="line"><span class="keyword">val</span> config = RealmConfiguration.Builder(<span class="keyword">this</span>)</div><div class="line">            .schemaVersion(<span class="number">1</span>) <span class="comment">// 新版本1</span></div><div class="line">            .migration &#123; realm, oldVersion, newVersion -&gt;</div><div class="line">                <span class="keyword">var</span> version = oldVersion</div><div class="line">                <span class="keyword">val</span> schema = realm.schema</div><div class="line"></div><div class="line">                <span class="keyword">if</span> (version == <span class="number">0</span>L) &#123; <span class="comment">// 旧版本0</span></div><div class="line">                    schema.<span class="keyword">get</span>(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>.<span class="title">simpleName</span>)</span></div><div class="line">                            .addField(<span class="string">"modifiedDate"</span>, Date::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">                    version++</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">            .build()</div><div class="line"><span class="comment">// 获得数据库对象</span></div><div class="line"><span class="keyword">val</span> realm = Realm.getInstance(config)</div><div class="line"><span class="comment">// 执行事务</span></div><div class="line">realm.executeTransaction &#123;</div><div class="line">    <span class="comment">// 创建RealmLink对象</span></div><div class="line">    <span class="keyword">val</span> realmLink = realm.createObject(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">    realmLink.title = <span class="string">"Google"</span></div><div class="line">    realmLink.url = <span class="string">"https://google.com"</span></div><div class="line">    realmLink.createDate = Date()</div><div class="line">    realmLink.modifiedDate = Date()</div><div class="line">    tags.forEach &#123; it -&gt;</div><div class="line">        <span class="keyword">val</span> realmTag = realm.createObject(RealmTag::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">        realmTag.name = it</div><div class="line">        realmLink.tags?.add(realmTag)</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 存储</span></div><div class="line">    realm.copyFromRealm(realmLink)</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><blockquote><p>如果首次安装App，它会执行迁移吗？</p></blockquote><p>回答：不会，首次安装App，会按照你所有的Model类，自动创建结构。只有更新App(数据字段有更新)后，才会执行迁移，哪怕配置了迁移，第一次也不会执行。</p>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;序章&quot;&gt;&lt;a href=&quot;#序章&quot; class=&quot;headerlink&quot; title=&quot;序章&quot;&gt;&lt;/a&gt;序章&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;/use-realm-on-kotlin/&quot;&gt;使用Realm在Kotlin中(Android)&lt;/a&gt;&lt;/p&gt;
+      
+      
+        &lt;h2 id=&quot;序章&quot;&gt;&lt;a href=&quot;#序章&quot; class=&quot;headerlink&quot; title=&quot;序章&quot;&gt;&lt;/a&gt;序章&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;/use-realm-on-kotlin/&quot;&gt;使用Realm在Kotlin中(Android)&lt;/a&gt;&lt;/p&gt;
 &lt;h2 i
+      
     
     </summary>
     
@@ -350,30 +219,15 @@ signing</code>控制着哪些用户的进程/App可以被运行，并且确保�
     <published>2016-01-30T08:02:19.000Z</published>
     <updated>2016-08-31T08:49:20.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>build.gradle</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// Realm</div><div class="line">compile &apos;io.realm:realm-android-library:0.87.4@aar&apos;</div><div class="line">compile &apos;io.realm:realm-annotations:0.87.4&apos;</div><div class="line">kapt &apos;io.realm:realm-annotations:0.87.4&apos;</div><div class="line">kapt &apos;io.realm:realm-annotations-processor:0.87.4&apos;</div></pre></td></tr></table></figure>
-<p>proguard-rules.pro</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># Realm</div><div class="line">-keep class io.realm.annotations.RealmModule</div><div class="line">-keep @io.realm.annotations.RealmModule class *</div><div class="line">-keep class io.realm.internal.Keep</div><div class="line">-keep @io.realm.internal.Keep class * &#123; *; &#125;</div><div class="line">-dontwarn javax.**</div><div class="line">-dontwarn io.realm.**</div></pre></td></tr></table></figure>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>RealmLink.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmLink</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> url: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> title: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> createDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> tags: RealmList&lt;RealmTag&gt;? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>RealmTag.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmTag</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> name: String? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>MainActivity.kt</p>
-<figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> tags = arrayListOf(<span class="string">"Web"</span>, <span class="string">"Search"</span>)</div><div class="line"><span class="comment">// 得到配置(暂无数据迁移)</span></div><div class="line"><span class="keyword">val</span> config = RealmConfiguration.Builder(context).build()</div><div class="line"><span class="comment">// 获得数据库对象</span></div><div class="line"><span class="keyword">val</span> realm = Realm.getInstance(config)</div><div class="line"><span class="comment">// 执行事务</span></div><div class="line">realm.executeTransaction &#123;</div><div class="line">    <span class="comment">// 创建RealmLink对象</span></div><div class="line">    <span class="keyword">val</span> realmLink = realm.createObject(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">    realmLink.title = <span class="string">"Google"</span></div><div class="line">    realmLink.url = <span class="string">"https://google.com"</span></div><div class="line">    realmLink.createDate = Date()</div><div class="line">    tags.forEach &#123; it -&gt;</div><div class="line">        <span class="keyword">val</span> realmTag = realm.createObject(RealmTag::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">        realmTag.name = it</div><div class="line">        realmLink.tags?.add(realmTag)</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 存储</span></div><div class="line">    realm.copyFromRealm(realmLink)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><blockquote>
-<p>XXX is not part of the schema for this Realm</p>
-</blockquote>
-<p>原因：重复引用Realm库。</p>
-<p>解决方法：去掉下面第一条就可以了。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">compile &apos;io.realm:realm-android:0.87.4&apos;</div><div class="line">compile &apos;io.realm:realm-android-library:0.87.4@aar&apos;</div></pre></td></tr></table></figure>
-<p><a href="https://github.com/realm/realm-java/issues/2162" target="_blank" rel="external">当时问题解决链接</a></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://github.com/RxKotlin/Pocket/tree/use-realm" target="_blank" rel="external">点这里</a></p>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>build.gradle</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">// Realm</div><div class="line">compile &apos;io.realm:realm-android-library:0.87.4@aar&apos;</div><div class="line">compile &apos;io.realm:realm-annotations:0.87.4&apos;</div><div class="line">kapt &apos;io.realm:realm-annotations:0.87.4&apos;</div><div class="line">kapt &apos;io.realm:realm-annotations-processor:0.87.4&apos;</div></pre></td></tr></table></figure><p>proguard-rules.pro</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"># Realm</div><div class="line">-keep class io.realm.annotations.RealmModule</div><div class="line">-keep @io.realm.annotations.RealmModule class *</div><div class="line">-keep class io.realm.internal.Keep</div><div class="line">-keep @io.realm.internal.Keep class * &#123; *; &#125;</div><div class="line">-dontwarn javax.**</div><div class="line">-dontwarn io.realm.**</div></pre></td></tr></table></figure><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>RealmLink.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmLink</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> url: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> title: String? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> createDate: Date? = <span class="literal">null</span></div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> tags: RealmList&lt;RealmTag&gt;? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>RealmTag.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">open</span> <span class="class"><span class="keyword">class</span> <span class="title">RealmTag</span>: <span class="type">RealmObject</span></span>() &#123;</div><div class="line">    <span class="keyword">open</span> <span class="keyword">var</span> name: String? = <span class="literal">null</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><p>MainActivity.kt</p><figure class="highlight kotlin"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">val</span> tags = arrayListOf(<span class="string">"Web"</span>, <span class="string">"Search"</span>)</div><div class="line"><span class="comment">// 得到配置(暂无数据迁移)</span></div><div class="line"><span class="keyword">val</span> config = RealmConfiguration.Builder(context).build()</div><div class="line"><span class="comment">// 获得数据库对象</span></div><div class="line"><span class="keyword">val</span> realm = Realm.getInstance(config)</div><div class="line"><span class="comment">// 执行事务</span></div><div class="line">realm.executeTransaction &#123;</div><div class="line">    <span class="comment">// 创建RealmLink对象</span></div><div class="line">    <span class="keyword">val</span> realmLink = realm.createObject(RealmLink::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">    realmLink.title = <span class="string">"Google"</span></div><div class="line">    realmLink.url = <span class="string">"https://google.com"</span></div><div class="line">    realmLink.createDate = Date()</div><div class="line">    tags.forEach &#123; it -&gt;</div><div class="line">        <span class="keyword">val</span> realmTag = realm.createObject(RealmTag::<span class="class"><span class="keyword">class</span>.<span class="title">java</span>)</span></div><div class="line">        realmTag.name = it</div><div class="line">        realmLink.tags?.add(realmTag)</div><div class="line">    &#125;</div><div class="line">    <span class="comment">// 存储</span></div><div class="line">    realm.copyFromRealm(realmLink)</div><div class="line">&#125;</div></pre></td></tr></table></figure><h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><blockquote><p>XXX is not part of the schema for this Realm</p></blockquote><p>原因：重复引用Realm库。</p><p>解决方法：去掉下面第一条就可以了。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">compile &apos;io.realm:realm-android:0.87.4&apos;</div><div class="line">compile &apos;io.realm:realm-android-library:0.87.4@aar&apos;</div></pre></td></tr></table></figure><p><a href="https://github.com/realm/realm-java/issues/2162" target="_blank" rel="external">当时问题解决链接</a></p><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://github.com/RxKotlin/Pocket/tree/use-realm" target="_blank" rel="external">点这里</a></p>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;build.gradle&lt;/p&gt;
+      
+      
+        &lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;build.gradle&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=
+      
     
     </summary>
     
@@ -387,68 +241,19 @@ signing</code>控制着哪些用户的进程/App可以被运行，并且确保�
     <published>2016-01-17T07:59:06.000Z</published>
     <updated>2016-08-31T08:53:06.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
-<li>自定义一个Math库</li>
-<li>上传到jcenter</li>
-<li>在自己的App中引用</li>
-</ul>
-<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul>
-<li>注册<a href="https://bintray.com/" target="_blank" rel="external">Bintray</a>，我们会上传到这里，并且送入jcenter。</li>
-<li>添加一个<code>Package</code>叫做<code>Math</code>在<code>maven</code>库中。</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>Key</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Name</td>
-<td>Math</td>
-</tr>
-<tr>
-<td>Licenses</td>
-<td>MIT</td>
-</tr>
-<tr>
-<td>Version control</td>
-<td><a href="https://github.com/itrufeng/Math" target="_blank" rel="external">https://github.com/itrufeng/Math</a></td>
-</tr>
-</tbody>
-</table>
-<h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul>
-<li>创建项目<code>MathAppWithJcenter</code></li>
-<li>创建Android Library<code>Math</code></li>
-<li>添加类<code>Math</code>在<code>Math</code>库中</li>
-<li>添加上传插件</li>
-<li>上传</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gradle bintrayUpload</div></pre></td></tr></table></figure>
-<ul>
-<li>发布，进入<code>Bintray</code>网站<code>Math</code>库。点击<code>Publish</code></li>
-</ul>
-<blockquote>
-<p>Notice: You have 2 unpublished item(s) for this repo (expiring in 6 days and 22 hours) Discard | Publish</p>
-</blockquote>
-<ul>
-<li>在App中引用</li>
-</ul>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://github.com/itrufeng/MathAppWithJencter" target="_blank" rel="external">Github</a></p>
-<h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul>
-<li><a href="https://bintray.com/jfrog/jfrog-jars/gradle-bintray-plugin#read" target="_blank" rel="external">Gradle bintray plugin</a></li>
-</ul>
-]]></content>
+    <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul><li>自定义一个Math库</li><li>上传到jcenter</li><li>在自己的App中引用</li></ul><h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><ul><li>注册<a href="https://bintray.com/" target="_blank" rel="external">Bintray</a>，我们会上传到这里，并且送入jcenter。</li><li>添加一个<code>Package</code>叫做<code>Math</code>在<code>maven</code>库中。</li></ul><table><thead><tr><th>Key</th><th>Value</th></tr></thead><tbody><tr><td>Name</td><td>Math</td></tr><tr><td>Licenses</td><td>MIT</td></tr><tr><td>Version control</td><td><a href="https://github.com/itrufeng/Math" target="_blank" rel="external">https://github.com/itrufeng/Math</a></td></tr></tbody></table><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ul><li>创建项目<code>MathAppWithJcenter</code></li><li>创建Android Library<code>Math</code></li><li>添加类<code>Math</code>在<code>Math</code>库中</li><li>添加上传插件</li><li>上传</li></ul><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gradle bintrayUpload</div></pre></td></tr></table></figure><ul><li>发布，进入<code>Bintray</code>网站<code>Math</code>库。点击<code>Publish</code></li></ul><blockquote><p>Notice: You have 2 unpublished item(s) for this repo (expiring in 6 days and 22 hours) Discard | Publish</p></blockquote><ul><li>在App中引用</li></ul><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://github.com/itrufeng/MathAppWithJencter" target="_blank" rel="external">Github</a></p><h2 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h2><ul><li><a href="https://bintray.com/jfrog/jfrog-jars/gradle-bintray-plugin#read" target="_blank" rel="external">Gradle bintray plugin</a></li></ul>]]></content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
+      
+      
+        &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;自定义一个Math库&lt;/li&gt;
 &lt;li&gt;上传到jcenter&lt;/li&gt;
 &lt;li&gt;在自己的App中引用&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h
+      
     
     </summary>
     
