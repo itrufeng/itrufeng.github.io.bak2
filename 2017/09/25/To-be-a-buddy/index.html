@@ -1,0 +1,756 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="ThoughtWorks," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jian's Notes" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="参加了胡老师周末的Buddy培训，总结输出一下学到的知识。 什么是Buddy在ThoughtWorks中，Buddy是带领每一位小伙伴度过试用期，发展他人成长的人。我也是被我的Buddy带出来的。 为什么要发展他人呢其实Studay is teaching. 这是对自己成长的一种帮助。 在胜任力模型中，我们有这样一个Baseline。可以看出发展他人可以从侧面反映出胜利力。    Junior S">
+<meta name="keywords" content="ThoughtWorks">
+<meta property="og:type" content="article">
+<meta property="og:title" content="成为一名Buddy">
+<meta property="og:url" content="http://itrufeng.com/2017/09/25/To-be-a-buddy/index.html">
+<meta property="og:site_name" content="Jian&#39;s Notes">
+<meta property="og:description" content="参加了胡老师周末的Buddy培训，总结输出一下学到的知识。 什么是Buddy在ThoughtWorks中，Buddy是带领每一位小伙伴度过试用期，发展他人成长的人。我也是被我的Buddy带出来的。 为什么要发展他人呢其实Studay is teaching. 这是对自己成长的一种帮助。 在胜任力模型中，我们有这样一个Baseline。可以看出发展他人可以从侧面反映出胜利力。    Junior S">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://itrufeng.com/2017/09/25/To-be-a-buddy/What%20is%20JSON.jpg">
+<meta property="og:updated_time" content="2017-09-25T15:45:04.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="成为一名Buddy">
+<meta name="twitter:description" content="参加了胡老师周末的Buddy培训，总结输出一下学到的知识。 什么是Buddy在ThoughtWorks中，Buddy是带领每一位小伙伴度过试用期，发展他人成长的人。我也是被我的Buddy带出来的。 为什么要发展他人呢其实Studay is teaching. 这是对自己成长的一种帮助。 在胜任力模型中，我们有这样一个Baseline。可以看出发展他人可以从侧面反映出胜利力。    Junior S">
+<meta name="twitter:image" content="http://itrufeng.com/2017/09/25/To-be-a-buddy/What%20is%20JSON.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> 成为一名Buddy | Jian's Notes </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Jian's Notes</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">iOS Dev.</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                成为一名Buddy
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2017-09-25T21:54:45+08:00" content="2017-09-25">
+              2017-09-25
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2017/09/25/To-be-a-buddy/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/09/25/To-be-a-buddy/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>参加了胡老师周末的Buddy培训，总结输出一下学到的知识。</p>
+<h2 id="什么是Buddy"><a href="#什么是Buddy" class="headerlink" title="什么是Buddy"></a>什么是Buddy</h2><p>在ThoughtWorks中，Buddy是带领每一位小伙伴度过试用期，发展他人成长的人。我也是被我的Buddy带出来的。</p>
+<h2 id="为什么要发展他人呢"><a href="#为什么要发展他人呢" class="headerlink" title="为什么要发展他人呢"></a>为什么要发展他人呢</h2><p>其实Studay is teaching. 这是对自己成长的一种帮助。</p>
+<p>在胜任力模型中，我们有这样一个Baseline。可以看出发展他人可以从侧面反映出胜利力。</p>
+<table>
+<thead>
+<tr>
+<th>Junior</th>
+<th>Senior</th>
+<th>Lead</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>自信</td>
+<td>诊断性信息收集</td>
+<td>建立重点</td>
+</tr>
+<tr>
+<td>发展他人</td>
+<td>分析性思考</td>
+<td>个人责任感</td>
+</tr>
+<tr>
+<td>客户成果交付</td>
+<td>灵活机动</td>
+<td>概念性思考/商业敏锐感</td>
+</tr>
+<tr>
+<td>技术专长</td>
+<td></td>
+<td>令人信服的沟通／影响力</td>
+</tr>
+</tbody>
+</table>
+<h2 id="终身学习数字化人才"><a href="#终身学习数字化人才" class="headerlink" title="终身学习数字化人才"></a>终身学习数字化人才</h2><p>这是一个从出生起，就不在一个起跑线上的社会。这一点令人沮丧且不可改变。但是同时具备<code>工程</code>,<code>商业</code>和<code>设计</code>的人总是容易获得成功，这是一个规律。它意味着，这些人有着<code>持续</code>,<code>自愿</code>和<code>自我激励</code>这样的特性。虽然我们不能决定出生，但总可以从一些规律中找出一些突破点。也同样去持续和自愿的学习。目前社会上，类似慕课网这样的，都在使用一种<code>以学习者为中心的可视化培养环境</code>的方式。</p>
+<h2 id="什么是以学习者为中心的可视化培养环境"><a href="#什么是以学习者为中心的可视化培养环境" class="headerlink" title="什么是以学习者为中心的可视化培养环境"></a>什么是以学习者为中心的可视化培养环境</h2><p>简单的来说就是。<code>培养者</code>应该<code>少讲课``多辅导</code>，通过一些可视化的<code>检查</code>来进行<code>反馈</code>的一种培养方法。培养者需要用自己已有的经验来给学习者提供多种<code>学习方式</code>，提供学习者根据自己的兴趣选择。并且告知学习者学习的理由和激励。</p>
+<p><code>学习者</code>自主选择一种来<code>自主学习</code>，通过<code>教他人学习</code>的方式来输出总结。并且自主找出评估信息。</p>
+<p>在培养者做<code>辅导</code>的时候，应该使用<code>PDCA</code>模型，及<code>计划(Plan)</code>-&gt;<code>执行(Do)</code>-&gt;<code>检查(Check)</code>-&gt;<code>纠正(Action)</code>。只有形成一个闭环才能转起来，并且有效果。</p>
+<p><code>测试</code>应该做到可视化，这样能保证最简单的可Check。胡老师他们针对一下几个维度，分别有可视化的实践。</p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>可视化方法</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>知识储备</td>
+<td>读书打卡</td>
+</tr>
+<tr>
+<td>概念掌握</td>
+<td>概念图</td>
+</tr>
+<tr>
+<td>业务理解</td>
+<td>业务蓝图</td>
+</tr>
+<tr>
+<td>任务拆分</td>
+<td>Tasking</td>
+</tr>
+<tr>
+<td>技能掌握</td>
+<td>限时编程</td>
+</tr>
+<tr>
+<td>持续改进</td>
+<td>总结/述职</td>
+</tr>
+</tbody>
+</table>
+<p><code>反馈</code>是一种沟通，反馈首先需要做到<code>倾听</code>。在倾听中，我们应该使用<code>DIE</code>模型。它有三项需要我们注意，分别是<code>描述``解读</code>和<code>判断</code>，只有描述是客观事实，而解读和判断都是主观，是在倾听中需要辨别出来的，也是我们在反馈中需要注意的。否则很容易不能在同一件事上沟通，最后给出无效的反馈，甚至反感的结束。</p>
+<p>好的反馈应该做到以下几点：</p>
+<ul>
+<li>及时</li>
+<li>对事不对人</li>
+<li>以帮助别人为出发点</li>
+<li>描述事物越具体越好(重中之重)</li>
+<li>有保持或改进的空间，给出建设性意见</li>
+<li>有勇气给，领导，以及不好沟通的人反馈。</li>
+</ul>
+<p>如果我们的描述很含糊，例如，代码写的太乱了。应该给出事实，在代码Review中，发现有违反Clean Code中，单一职责。造成代码副作用，提高维护成本。</p>
+<p>反馈语句可以参考<code>SBI</code>模型，<code>在什么情况下(Situation)</code>，<code>观察到什么行为(Behavior)</code>，<code>造成什么影响(Impact)</code>。这样就不容易出现主观评论。</p>
+<p>另外反馈应该可以改进，例如。身高太低了，应该再长高点这种不可改进的问题。</p>
+<p>另外，我们也要禁止对信仰(Belief)，世界观(Attitude)进行反馈，我们只根据行为(Behavior)反馈。</p>
+<p>那么对于学习者，接受反馈也是需要注意的。</p>
+<ul>
+<li>保持开放的心态</li>
+<li>不采取防御态度</li>
+<li>感谢对方帮助自己提高成长</li>
+<li>积极配合对方提出的建设性意见</li>
+</ul>
+<p>这些都是我们容易培养的部分，当然我们也要面对那些难以培养的。</p>
+<h2 id="难以培养"><a href="#难以培养" class="headerlink" title="难以培养"></a>难以培养</h2><p><code>德雷福斯</code>模型</p>
+<p>新手(考指令工作)-&gt;高级新手(不需要考虑全局)-&gt;胜任者(解决问题)-&gt;精通者(自我纠正)-&gt;专家(靠直觉)</p>
+<p>这是一个不可逃避的问题，我们需要正确的对待时间和现实。还有更难培养的，也是最核心的部分。</p>
+<ul>
+<li>理解能力</li>
+<li>表达能力</li>
+</ul>
+<p>如果需要提升这两部分，那么听说读写则是最有效的。但这些基本在小学一二年级是最佳提升时机，之后基本固定很难再提升了。</p>
+<h2 id="反思和总结"><a href="#反思和总结" class="headerlink" title="反思和总结"></a>反思和总结</h2><p>虽然这些很难培养，但是我们依然需要反思和总结。它可以帮助我们成长，更是帮助新人去发现问题和改进提供帮助。</p>
+<p>反思应该使用 <code>SW1H</code>分析法或者<code>SWHY</code>分析法。</p>
+<p>反思的顺序应该是<code>事实``矛盾``问题</code>和<code>观点</code>。我们应该让学习者进行这样的反思，告诉我们他们近期的情况。我们再根据这些给出Action。给出Action也要符合我们上面说到的<code>PDCA</code>，同时也要符合<code>SMART</code>要求，<code>具体</code>，<code>可衡量</code>，<code>可达到</code>，<code>与其他目标相关</code>，<code>有时间限制</code>。</p>
+<p>如果新人很难给出反思和总结。我们可以使用以下引导</p>
+<ul>
+<li>过去一个月的工作</li>
+<li>典型业务(平时工作)</li>
+<li>学到什么技术</li>
+<li>自己参与了什么</li>
+<li>自己是怎么做的</li>
+</ul>
+<p>根据这些思考</p>
+<ul>
+<li>改进了什么？如何证明？</li>
+<li>原因是什么？</li>
+<li>有什么更多的收获</li>
+</ul>
+<p>在帮助新人复盘一个月的工作中，也可以提出</p>
+<ul>
+<li>目标是什么？Context是什么？</li>
+<li>方案是什么？优缺点是什么？</li>
+<li>为了实现都做了什么？优先级是什么？</li>
+<li>自己做了其中的哪一部分？</li>
+</ul>
+<p>必要的时候可以让新人画概念图</p>
+<h2 id="概念图"><a href="#概念图" class="headerlink" title="概念图"></a>概念图</h2><p>概念图是由<code>概念``链接线</code>和<code>关注点</code>组成。最小的单元是<code>命题</code>，<code>命题</code>由<code>两个概念</code>和<code>一条连接线</code>组成。它可以帮助我们把大脑中思考的事情用图来可视化。在这里可以帮助我们查看新人对事物的理解。如果新人的表达能力描述不清，借此辅助。</p>
+<img src="/2017/09/25/To-be-a-buddy/What%20is%20JSON.jpg" alt="什么是JSON" title="什么是JSON">
+<p>怎么样，很容易看出我脑袋里的想法吧！</p>
+<p>概念图和思维导图不同，思维导图注重思维的发散，而概念图注重概念的链接。</p>
+<p><a href="http://cmapdownload.ihmc.us/installs/CmapTools/Mac/MacOSXCmapTools_v6.02_08-11-16.zip" target="_blank" rel="external">CmapTools</a>是一款，免费的，学术的软件来画概念图。</p>
+<p>总之，还有很多东西需要学习。这里做一个总结，分享给跟多的人。也是Studay is teaching了。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ThoughtWorks/" rel="tag">#ThoughtWorks</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/07/15/cherry-danmu-coming-soon/" rel="next" title="樱桃弹幕来啦 For macOS">
+                <i class="fa fa-chevron-left"></i> 樱桃弹幕来啦 For macOS
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/09/25/To-be-a-buddy/"
+           data-title="成为一名Buddy" data-url="http://itrufeng.com/2017/09/25/To-be-a-buddy/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpeg"
+               alt="Jian Zhang" />
+          <p class="site-author-name" itemprop="name">Jian Zhang</p>
+          <p class="site-description motion-element" itemprop="description">Work at ThoughtWorks in Xi'an.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">12</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/itrufeng" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/itrufeng" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://bestrang.com/" title="Haibin" target="_blank">Haibin</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是Buddy"><span class="nav-number">1.</span> <span class="nav-text">什么是Buddy</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#为什么要发展他人呢"><span class="nav-number">2.</span> <span class="nav-text">为什么要发展他人呢</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#终身学习数字化人才"><span class="nav-number">3.</span> <span class="nav-text">终身学习数字化人才</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是以学习者为中心的可视化培养环境"><span class="nav-number">4.</span> <span class="nav-text">什么是以学习者为中心的可视化培养环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#难以培养"><span class="nav-number">5.</span> <span class="nav-text">难以培养</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#反思和总结"><span class="nav-number">6.</span> <span class="nav-text">反思和总结</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#概念图"><span class="nav-number">7.</span> <span class="nav-text">概念图</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jian Zhang</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+<script src="https://s13.cnzz.com/z_stat.php?id=1264404159&web_id=1264404159" language="JavaScript"></script>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"itrufeng"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+  
+
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+</body>
+</html>
